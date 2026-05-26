@@ -1,0 +1,315 @@
+{
+  "generated_at": "2026-05-26 04:42 UTC",
+  "events": [
+    {
+      "year": 1100,
+      "year_max": 1135,
+      "type": "surname-progenitor",
+      "description": "Godfrey de la Rochelle attested Hen I",
+      "venue": "Norman England",
+      "county": null,
+      "confidence": "STRUCTURAL",
+      "source": "CFR-V1-EDW-I"
+    },
+    {
+      "year": 1100,
+      "year_max": 1135,
+      "type": "demesne-sub-tenancy",
+      "description": "Godfrey de la Rochelle demesne sub-tenant under Geoffrey de Mandeville Henry I 1100-1135 — earliest currently documented Rokele in Essex",
+      "venue": "South Ockendon",
+      "county": "Essex",
+      "confidence": "HIGH",
+      "source": "VCH-ESSEX-V7"
+    },
+    {
+      "year": 1163,
+      "year_max": 1187,
+      "type": "diplomatic-grant",
+      "description": "Brook Street Hospital charters where William Doo / D'Ou / de la Rochelle / de la Rokele uses interchangeable bynames — keystone for dual-name convention",
+      "venue": "Brook Street Hospital (South Weald)",
+      "county": "Essex",
+      "confidence": "HIGH",
+      "source": "BROOK-STREET-HOSP"
+    },
+    {
+      "year": 1175,
+      "year_max": 1176,
+      "type": "pipe-roll-grain",
+      "description": "William 'La Rokella' receives 4 livres for 20 measures of grain — definite-article Anglo-Norman locative form",
+      "venue": "Oxfordshire",
+      "county": "Oxfordshire",
+      "confidence": "HIGH",
+      "source": "PIPE-ROLL-22HEN-II"
+    },
+    {
+      "year": 1198,
+      "year_max": null,
+      "type": "death",
+      "description": "William Doo / D'Ou / de la Rochelle / de la Rokele d.1198 South Ockendon — bridge generation between Henry I Godfrey 1100-35 and William II d.1226",
+      "venue": "South Ockendon",
+      "county": "Essex",
+      "confidence": "HIGH",
+      "source": "VCH-ESSEX-V7"
+    },
+    {
+      "year": 1242,
+      "year_max": null,
+      "type": "crown-wardship",
+      "description": "Heir of William de la Rokeles in royal wardship to Philip d'Aubigny — terra de Willinghal' valet x.l.",
+      "venue": "Willingale Doe",
+      "county": "Essex",
+      "confidence": "HIGH",
+      "source": "LIBER-FEODORUM-1242"
+    },
+    {
+      "year": 1245,
+      "year_max": 1246,
+      "type": "first-attestation-Ireland",
+      "description": "Justiciar Sir Richard de Rupella horse-purchase mandate Pat 30 Hen III — earliest currently documented Rokele in Ireland",
+      "venue": "Dublin",
+      "county": null,
+      "confidence": "HIGH",
+      "source": "CDRI-V1"
+    },
+    {
+      "year": 1276,
+      "year_max": null,
+      "type": "escheat",
+      "description": "Escheat of Justiciar Richard's lands — death-date corrects DIB 6 Dec 1276 → ~early Apr 1276",
+      "venue": "Havering",
+      "county": null,
+      "confidence": "HIGH",
+      "source": "CFR-V1-EDW-I"
+    },
+    {
+      "year": 1277,
+      "year_max": null,
+      "type": "livery-English",
+      "description": "Philip de la Rokele English livery post-homage",
+      "venue": "Westminster",
+      "county": null,
+      "confidence": "HIGH",
+      "source": "CFR-V1-EDW-I"
+    },
+    {
+      "year": 1277,
+      "year_max": null,
+      "type": "livery-Irish",
+      "description": "Irish-livery writ to Robert de Offord Justiciary of Ireland for Connacht/Wicklow",
+      "venue": "Gloucester",
+      "county": null,
+      "confidence": "HIGH",
+      "source": "CFR-V1-EDW-I"
+    },
+    {
+      "year": 1289,
+      "year_max": null,
+      "type": "escheat",
+      "description": "Margery escheat Adlangport+Fydoun to Hugh de Bruges valet at the extent",
+      "venue": "Adlangport (Woodstown)",
+      "county": "Co Waterford",
+      "confidence": "HIGH",
+      "source": "LIS-320"
+    },
+    {
+      "year": 1289,
+      "year_max": null,
+      "type": "IPM",
+      "description": "Margery de la Rokele IPM names patrilineal stem Richard→Robert→John+Margery TNA C 133/54/14",
+      "venue": "Tipperary",
+      "county": null,
+      "confidence": "HIGH",
+      "source": "CIPM-V3"
+    },
+    {
+      "year": 1295,
+      "year_max": null,
+      "type": "death",
+      "description": "Philip de la Rokele d.5 Oct 1295 Canterbury",
+      "venue": "Canterbury",
+      "county": null,
+      "confidence": "HIGH",
+      "source": "CFR-V1-EDW-I"
+    },
+    {
+      "year": 1301,
+      "year_max": null,
+      "type": "livery",
+      "description": "Maud le Brun livery (post-stepfather Richard de Chigewell wardship cascade) escheator beyond Trent Walter de Gloucestria CCR Vol IV p.453 mb.7",
+      "venue": "Tynemouth",
+      "county": null,
+      "confidence": "HIGH",
+      "source": "CCR-V4-EDW-I"
+    },
+    {
+      "year": 1314,
+      "year_max": null,
+      "type": "free-tenant",
+      "description": "John de la Rokell holds Fidon-in-Croc by suit of court at Ballybramoth — verbatim Burtchaell 1314 Iverk extent",
+      "venue": "Fidon-in-Croc",
+      "county": "Co Kilkenny",
+      "confidence": "HIGH",
+      "source": "BURTCHAELL-1893"
+    },
+    {
+      "year": 1314,
+      "year_max": null,
+      "type": "free-tenant",
+      "description": "William de la Rokell holds Kelroske — verbatim Burtchaell 1314 Iverk extent",
+      "venue": "Kelroske",
+      "county": "Co Kilkenny",
+      "confidence": "HIGH",
+      "source": "BURTCHAELL-1893"
+    },
+    {
+      "year": 1359,
+      "year_max": null,
+      "type": "land-claim",
+      "description": "Richard Dodde × Richard de la Rokelle agreement — Dodde to aid Rokelle's claim to Dunmore",
+      "venue": "Dunmore",
+      "county": "Co Kilkenny",
+      "confidence": "HIGH",
+      "source": "ORMOND-V2"
+    },
+    {
+      "year": 1374,
+      "year_max": null,
+      "type": "cash-stipendiary",
+      "description": "William de la Rokele acknowledges receipt of money from James 2nd Earl of Ormond",
+      "venue": "Ormond",
+      "county": "Co Kilkenny",
+      "confidence": "HIGH",
+      "source": "ORMOND-V2"
+    },
+    {
+      "year": 1393,
+      "year_max": null,
+      "type": "mayor-Waterford",
+      "description": "John Rocket Mayor of Waterford under Henry IV — Suir-valley patrician revival",
+      "venue": "Waterford City",
+      "county": "Co Waterford",
+      "confidence": "MEDIUM",
+      "source": "CSPI-CHAS-II"
+    },
+    {
+      "year": 1593,
+      "year_max": 1602,
+      "type": "inquisition-Athloypot",
+      "description": "Robertus Poer Fitz-Piers 25 Aprilis Athloypot — Co Waterford Rolls Office Inq Eliz I entry No.6",
+      "venue": "Athloypot (Clondonell)",
+      "county": "Co Waterford",
+      "confidence": "HIGH",
+      "source": "RECCOMM-1819"
+    },
+    {
+      "year": 1595,
+      "year_max": 1595,
+      "type": "IPM",
+      "description": "Redmundus Rockett IPM 3 Jan 37 Eliz I item 40",
+      "venue": "Blackfriars",
+      "county": "Co Waterford",
+      "confidence": "HIGH",
+      "source": "VRTI"
+    },
+    {
+      "year": 1602,
+      "year_max": null,
+      "type": "livery-patent",
+      "description": "Livery Nicholas Rocket of Atlongport son+heir of Redmund — Fiant 6749 verbatim Atlongport spelling",
+      "venue": "Atlongport",
+      "county": "Co Waterford",
+      "confidence": "HIGH",
+      "source": "MORRIN-V2"
+    },
+    {
+      "year": 1606,
+      "year_max": null,
+      "type": "IPM",
+      "description": "Manor of Kilmeaden IPM at RuckellsCastell 4 Jas I",
+      "venue": "Manor of Kilmeaden / RuckellsCastell",
+      "county": "Co Waterford",
+      "confidence": "HIGH",
+      "source": "RECCOMM-1819"
+    },
+    {
+      "year": 1620,
+      "year_max": null,
+      "type": "death",
+      "description": "Jacobus Rockell d.3 Apr 1620 Tallow — IPM 24 Jul 1620 — latest currently traced patent-class Rockett proprietor",
+      "venue": "Tallow",
+      "county": "Co Waterford",
+      "confidence": "HIGH",
+      "source": "VRTI"
+    },
+    {
+      "year": 1630,
+      "year_max": null,
+      "type": "IPM",
+      "description": "Nicholas Rockell IPM names heir Edward Rockell aged 16 + 1619 Stephen Strange mortgage",
+      "venue": "Blackfriars",
+      "county": "Co Waterford",
+      "confidence": "HIGH",
+      "source": "VRTI"
+    },
+    {
+      "year": 1632,
+      "year_max": 1635,
+      "type": "IPM",
+      "description": "Edwardus Rockall IPM names widow Maria Rockall + father Jacobus d.3 Apr 1620 — latest currently traced chancery appearance under Charles I",
+      "venue": "Tallow",
+      "county": "Co Waterford",
+      "confidence": "HIGH",
+      "source": "VRTI"
+    },
+    {
+      "year": 1640,
+      "year_max": null,
+      "type": "displacement-complete",
+      "description": "Civil Survey VI 1640 + Vol I Tipperary 1640 records no Rockett surname in the checked Civil Survey corpus — evidence favours a Stuart-mortgage displacement pathway over a simple 1652 Cromwellian explanation",
+      "venue": null,
+      "county": "Co Waterford",
+      "confidence": "HIGH",
+      "source": "CIVIL-SURVEY-V6"
+    },
+    {
+      "year": 1641,
+      "year_max": null,
+      "type": "recusant-trustee",
+      "description": "Wm Power of Rathgormuck Protestant = redemption-leaseholder on Nicholas Power parcels — recusant-trustee shield blocking Cromwellian forfeiture under 30 Nov 1654 Council Order",
+      "venue": "Rathgormuck",
+      "county": "Co Waterford",
+      "confidence": "HIGH",
+      "source": "CIVIL-SURVEY-V6"
+    },
+    {
+      "year": 1659,
+      "year_max": null,
+      "type": "cottier-cluster",
+      "description": "6 Rockwell/Rochwell sub-tenant households Pender 1659 Co Waterford Upperthird Principall Irish Names — on Power Fitz-Piers estate under Wm Power Protestant trustee",
+      "venue": "Clondonell+Kilballykilty+Knocklaffally",
+      "county": "Co Waterford",
+      "confidence": "HIGH",
+      "source": "PENDER-1659"
+    },
+    {
+      "year": 1666,
+      "year_max": null,
+      "type": "Remonstrance",
+      "description": "Richard Strang of Rockwells Castle signs Walsh Loyal Remonstrance as Catholic recusant gentleman",
+      "venue": "Rockwells Castle",
+      "county": "Co Waterford",
+      "confidence": "HIGH",
+      "source": "CSPI-CHAS-II"
+    },
+    {
+      "year": 1720,
+      "year_max": null,
+      "type": "birth",
+      "description": "Petrus Rocket b.~1720 Ballytarsna Mooncoin = post-medieval patriarch in this working reconstruction (NLI vtls635311 p043 + vtls635313 p100)",
+      "venue": "Ballytarsna",
+      "county": "Co Kilkenny",
+      "confidence": "HIGH",
+      "source": "CIVIL-SURVEY-V6"
+    }
+  ]
+}
