@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-26 10:31 UTC",
+  "generated_at": "2026-05-26 10:48 UTC",
   "events": [
     {
-      "year": 1100,
-      "year_max": 1135,
-      "type": "surname-progenitor",
-      "description": "Godfrey de la Rochelle attested Hen I",
-      "venue": "Norman England",
-      "county": null,
-      "confidence": "STRUCTURAL",
-      "source": "CFR-V1-EDW-I"
+      "year": 1086,
+      "year_max": null,
+      "type": "domesday-separate-cluster",
+      "description": "Malgerius de Rokesle associated with Rochelei/Ruxley, Kent, in Domesday-era evidence — earliest broad Rokesle name-form currently in the research corpus, but treated as a separate Kent cluster rather than an ancestor of the south-east Ireland line",
+      "venue": "Rochelei / Ruxley",
+      "county": "Kent",
+      "confidence": "HIGH",
+      "source": "Domesday Book; Hasted Kent"
     },
     {
       "year": 1100,
@@ -20,6 +20,16 @@
       "county": "Essex",
       "confidence": "HIGH",
       "source": "VCH-ESSEX-V7"
+    },
+    {
+      "year": 1130,
+      "year_max": null,
+      "type": "pipe-roll-rocella",
+      "description": "Humphrey de Rochella in the Pipe Roll 31 Henry I, Dorset Danegeld pardon — earliest currently traced Rochella/Rokele-form entry in the English Pipe Roll corpus",
+      "venue": "Dorset",
+      "county": "England",
+      "confidence": "HIGH",
+      "source": "PR-31-HEN-I"
     },
     {
       "year": 1163,
@@ -104,22 +114,22 @@
     {
       "year": 1289,
       "year_max": null,
-      "type": "escheat",
-      "description": "Margery escheat Adlangport+Fydoun to Hugh de Bruges valet at the extent",
-      "venue": "Adlangport (Woodstown)",
-      "county": "Co Waterford",
-      "confidence": "HIGH",
-      "source": "LIS-320"
-    },
-    {
-      "year": 1289,
-      "year_max": null,
       "type": "IPM",
       "description": "Margery de la Rokele IPM names patrilineal stem Richard→Robert→John+Margery TNA C 133/54/14",
       "venue": "Tipperary",
       "county": null,
       "confidence": "HIGH",
       "source": "CIPM-V3"
+    },
+    {
+      "year": 1289,
+      "year_max": null,
+      "type": "escheat",
+      "description": "Margery escheat Adlangport+Fydoun to Hugh de Bruges valet at the extent",
+      "venue": "Adlangport (Woodstown)",
+      "county": "Co Waterford",
+      "confidence": "HIGH",
+      "source": "LIS-320"
     },
     {
       "year": 1295,
