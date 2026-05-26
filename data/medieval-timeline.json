@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26 04:42 UTC",
+  "generated_at": "2026-05-26 10:31 UTC",
   "events": [
     {
       "year": 1100,
@@ -185,10 +185,10 @@
       "year": 1393,
       "year_max": null,
       "type": "mayor-Waterford",
-      "description": "John Rocket Mayor of Waterford under Henry IV — Suir-valley patrician revival",
+      "description": "John Rocket attested as Mayor of Waterford — important late-medieval civic-office anchor for the surname in the city",
       "venue": "Waterford City",
       "county": "Co Waterford",
-      "confidence": "MEDIUM",
+      "confidence": "HIGH",
       "source": "CSPI-CHAS-II"
     },
     {
