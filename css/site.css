@@ -1,0 +1,341 @@
+/* The Rockett Story — shared public site styles */
+:root {
+  color-scheme: light;
+  --bg: #f6f2ea;
+  --bg-deep: #efe7d7;
+  --panel: #fffdf8;
+  --ink: #1f2933;
+  --ink-soft: #3b3027;
+  --muted: #5d6b78;
+  --accent: #6f3f1d;
+  --accent-deep: #4a2812;
+  --accent-bright: #b7791f;
+  --green: #315c48;
+  --line: #ded3c3;
+  --gules: #b22234;
+  --gules-dark: #7d1a25;
+  --or: #c9962d;
+  --argent: #f5efe1;
+  --azure: #1f4778;
+  --sable: #1a1614;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 70px; }
+
+body {
+  margin: 0;
+  font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.65;
+  font-size: 17px;
+}
+
+/* Top navigation */
+.topnav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(47, 36, 29, 0.96);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.topnav .wrap { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
+.topnav a {
+  color: #f0e3d2;
+  text-decoration: none;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.95rem;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+.topnav a:hover { background: rgba(255, 255, 255, 0.1); color: white; }
+.topnav .home {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* Hero */
+header.hero {
+  background:
+    linear-gradient(135deg, rgba(47,36,29,0.95) 0%, rgba(111,63,29,0.90) 80%),
+    radial-gradient(at 70% 30%, rgba(183, 121, 31, 0.45) 0%, transparent 60%);
+  color: white;
+  padding: 80px 22px 64px;
+}
+header.hero h1 {
+  margin: 0 0 14px;
+  font-size: clamp(2.1rem, 5.5vw, 4.4rem);
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  font-family: 'Trajan Pro', 'Cinzel', Georgia, serif;
+}
+header.hero .lede {
+  font-size: clamp(1.05rem, 1.6vw, 1.32rem);
+  max-width: 820px;
+  opacity: 0.95;
+  margin-bottom: 18px;
+}
+header.hero .meta {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.92rem;
+  opacity: 0.78;
+  margin-top: 24px;
+}
+.pillrow { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.pill {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.26);
+  color: white;
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.88rem;
+}
+
+/* Layout */
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 22px; }
+main section { padding: 38px 22px; }
+main section.tight { padding: 24px 22px; }
+
+h2 {
+  color: var(--accent);
+  margin: 0 0 14px;
+  font-size: clamp(1.6rem, 2.6vw, 2.1rem);
+  line-height: 1.2;
+  font-family: 'Cinzel', Georgia, serif;
+  letter-spacing: 0.01em;
+}
+h3 {
+  color: var(--green);
+  margin-bottom: 8px;
+  font-size: 1.18rem;
+}
+h4 { color: var(--ink-soft); margin: 18px 0 6px; font-size: 1.05rem; }
+
+p { margin: 0 0 14px; }
+ul { padding-left: 1.2rem; }
+ul li { margin: 6px 0; }
+
+a { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--accent-deep); }
+
+/* Card grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+  margin: 18px 0;
+}
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 6px 18px rgba(72, 52, 35, 0.07);
+}
+.card.feature { border-left: 5px solid var(--accent-bright); }
+.card .num {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+  font-family: 'Cinzel', Georgia, serif;
+}
+.card .label {
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--panel);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(72, 52, 35, 0.06);
+}
+th, td { padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; font-size: 0.96rem; }
+th {
+  background: var(--bg-deep);
+  color: var(--accent-deep);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 0.88rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+tr:hover td { background: rgba(255, 248, 230, 0.5); }
+td.year { font-family: 'Cinzel', Georgia, serif; color: var(--accent); white-space: nowrap; }
+td .src { font-size: 0.82rem; color: var(--muted); display: block; margin-top: 4px; }
+
+/* Notices and pull-quotes */
+.notice {
+  background: #fff8dc;
+  border-left: 5px solid var(--accent-bright);
+  padding: 16px 20px;
+  border-radius: 10px;
+  margin: 22px 0;
+}
+.notice strong { color: var(--accent-deep); }
+.notice.green { background: #eef4ee; border-left-color: var(--green); }
+.notice.azure { background: #eff3f9; border-left-color: var(--azure); }
+
+.pullquote {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 1.32rem;
+  color: var(--accent-deep);
+  border-left: 4px solid var(--accent-bright);
+  padding: 4px 0 4px 20px;
+  margin: 22px 0;
+  font-style: italic;
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+}
+.badge.high { background: #dff3e7; color: #166534; }
+.badge.medium { background: #fff2cc; color: #854d0e; }
+.badge.tradition { background: #f3e4f5; color: #6b21a8; }
+.badge.gone { background: #fde8e8; color: #991b1b; }
+
+/* Heraldry */
+.heraldry-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin: 24px 0;
+}
+.shield-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 22px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(72, 52, 35, 0.08);
+}
+.shield-card svg { display: block; margin: 0 auto 14px; height: 260px; width: auto; max-width: 100%; }
+.shield-card h3 { color: var(--accent-deep); margin-bottom: 8px; }
+.shield-card .blazon {
+  font-family: 'Cinzel', Georgia, serif;
+  font-style: italic;
+  color: var(--accent);
+  margin: 10px 0;
+}
+.shield-card .source {
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Big timeline */
+.timeline {
+  position: relative;
+  padding-left: 30px;
+  margin: 24px 0;
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, var(--accent-bright), var(--accent-deep));
+  border-radius: 3px;
+}
+.tlitem {
+  position: relative;
+  margin-bottom: 22px;
+  padding-left: 18px;
+}
+.tlitem::before {
+  content: "";
+  position: absolute;
+  left: -27px;
+  top: 4px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent-bright);
+  border: 3px solid var(--panel);
+  box-shadow: 0 0 0 2px var(--accent);
+}
+.tlitem h4 { margin: 0 0 4px; color: var(--accent); font-family: 'Cinzel', Georgia, serif; }
+.tlitem h4 .yr { color: var(--accent-deep); margin-right: 10px; }
+.tlitem p { margin: 0 0 6px; }
+.tlitem .src { font-size: 0.85rem; color: var(--muted); }
+
+/* Surname variants flow */
+.variants {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0;
+}
+.variant-chip {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-family: 'Cinzel', Georgia, serif;
+  color: var(--accent);
+  font-size: 0.98rem;
+}
+
+/* Footer */
+.footer {
+  background: var(--bg-deep);
+  padding: 32px 22px;
+  margin-top: 50px;
+  font-size: 0.92rem;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+}
+.footer p { margin-bottom: 8px; }
+
+/* Toc / section nav */
+.toc {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 18px 22px;
+  margin: 20px 0 30px;
+}
+.toc h4 { margin: 0 0 10px; color: var(--accent); }
+.toc ul {
+  columns: 2;
+  column-gap: 30px;
+  padding-left: 1rem;
+  list-style: none;
+}
+.toc li { margin: 5px 0; break-inside: avoid; }
+.toc li a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.96rem;
+}
+.toc li a:hover { color: var(--accent-deep); text-decoration: underline; }
+
+@media (max-width: 720px) {
+  .toc ul { columns: 1; }
+  table, thead, tbody, th, td, tr { display: block; }
+  th { display: none; }
+  td { border-bottom: 0; padding: 6px 14px; }
+  tr { border-bottom: 1px solid var(--line); padding: 10px 0; }
+  td.year { font-weight: 700; }
+}
