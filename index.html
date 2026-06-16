@@ -3,795 +3,229 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Rockett Story &mdash; A Public History of the Surname</title>
-  <meta name="description" content="The medieval and early-modern history of the Rockett surname, from the Norman Conquest to seventeenth-century Ireland. With family arms, famous figures, and a research guide.">
-  <link rel="stylesheet" href="css/site.css">
+  <title>Rockett Family Research - South-East Ireland</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f2ea;
+      --panel: #fffdf8;
+      --ink: #1f2933;
+      --muted: #5d6b78;
+      --accent: #6f3f1d;
+      --accent2: #315c48;
+      --line: #ded3c3;
+      --gold: #b7791f;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--ink); line-height: 1.6; }
+    header { background: linear-gradient(135deg, #2f241d, #6f3f1d); color: white; padding: 56px 20px; }
+    .wrap { max-width: 1100px; margin: 0 auto; }
+    h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 4rem); line-height: 1.05; }
+    h2 { color: var(--accent); margin-top: 42px; font-size: 1.8rem; }
+    h3 { color: var(--accent2); margin-bottom: 8px; }
+    .subtitle { font-size: 1.25rem; max-width: 850px; opacity: .92; }
+    .notice { background: #fff8dc; border-left: 5px solid var(--gold); padding: 16px 18px; border-radius: 10px; margin: 24px 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 20px; box-shadow: 0 8px 24px rgba(72, 52, 35, .07); }
+    .stat { font-size: 2rem; font-weight: 700; color: var(--accent); }
+    .label { color: var(--muted); font-size: .95rem; }
+    ul { padding-left: 1.2rem; }
+    a { color: #7c3f00; }
+    table { width: 100%; border-collapse: collapse; background: var(--panel); border-radius: 14px; overflow: hidden; }
+    th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    th { background: #efe5d6; color: #3b2a1d; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .88em; }
+    .badge { display: inline-block; padding: 3px 8px; border-radius: 999px; font-size: .78rem; font-family: Arial, sans-serif; font-weight: 700; }
+    .high { background: #dff3e7; color: #166534; }
+    .medium { background: #fff2cc; color: #854d0e; }
+    .structural { background: #e5e7eb; color: #374151; }
+    .unknown { background: #f3f4f6; color: #4b5563; }
+    .footer { margin: 48px 0 28px; color: var(--muted); font-size: .95rem; }
+    .pillrow { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .pill { background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.28); color: white; border-radius: 999px; padding: 6px 10px; font-family: Arial, sans-serif; font-size: .9rem; }
+    @media (max-width: 760px) { table, thead, tbody, th, td, tr { display: block; } th { display:none; } td { border-bottom: 0; padding: 8px 12px; } tr { border-bottom: 1px solid var(--line); padding: 8px 0; } }
+  </style>
 </head>
 <body>
-
-<nav class="topnav">
-  <div class="wrap">
-    <a class="home" href="index.html">The Rockett Story</a>
-    <a href="#origin">Origin</a>
-    <a href="#people">People</a>
-    <a href="#ireland">Ireland</a>
-    <a href="#castle">Rocketts Castle</a>
-    <a href="#timeline">Timeline</a>
-    <a href="heraldry.html">Heraldry</a>
-    <a href="tree.html">Family Tree &#128274;</a>
-    <a href="connections.html">How it Connects &#128274;</a>
-    <a href="research.html">Research To Do &#128274;</a>
-    <a href="#research">Research your line</a>
-  </div>
-</nav>
-
-<header class="hero">
-  <div class="wrap">
-    <h1>The Rockett Story</h1>
-    <p class="lede">A public history of the Rockett, Rokele, Rokesle, Rochelle and Rupella surnames, from the Norman Conquest of 1066 to the seventeenth-century Suir valley. For anyone who has ever wondered where their surname comes from.</p>
-    <div class="pillrow">
-      <span class="pill">225 documented medieval persons</span>
-      <span class="pill">17 English counties</span>
-      <span class="pill">England &middot; Ireland &middot; Wales &middot; Gascony</span>
-      <span class="pill">1066 to 1720</span>
+  <header>
+    <div class="wrap">
+      <h1>Rockett Family Research</h1>
+      <div class="subtitle">A public research summary for the Rockett / Rokele / Rupella surname corridor in south-east Ireland, from Anglo-Norman records to the Ballytarsna line.</div>
+      <div class="pillrow">
+        <span class="pill">South-east Ireland</span>
+        <span class="pill">Waterford - Kilkenny - Tipperary</span>
+        <span class="pill">Anglo-Norman gentry network</span>
+      </div>
     </div>
-    <p class="meta">Updated June 2026. Built from primary medieval sources &mdash; Domesday Book, the Calendar of Patent and Close Rolls, the Calendar of Inquisitions Post Mortem, the R&ocirc;les Gascons, Bracton&rsquo;s Note Book, Morant&rsquo;s <em>Essex</em>, Blomefield&rsquo;s <em>Norfolk</em>, Hasted&rsquo;s <em>Kent</em>, Cleveland&rsquo;s <em>Battle Abbey Roll</em>, and Robert Adams&rsquo;s 2013 monograph <em>Langland and the Rokele Family</em>.</p>
-  </div>
-</header>
+  </header>
 
-<main>
+  <main class="wrap">
+    <section class="notice">
+      <strong>Research standard:</strong> this site separates primary-source anchors from hypotheses. The current conclusion is a strong Anglo-Norman gentry network with repeated royal, civic, administrative, and marriage-alliance evidence. It is not presented as proof that every modern Rockett descends from one uninterrupted medieval male line.
+    </section>
 
-<section>
-  <div class="wrap">
+    <section class="grid">
+      <div class="card"><div class="stat">7370</div><div class="label">people in the associated public research dataset</div></div>
+      <div class="card"><div class="stat">42</div><div class="label">curated medieval/historical persons</div></div>
+      <div class="card"><div class="stat">32</div><div class="label">public medieval timeline events</div></div>
+      <div class="card"><div class="stat">1720</div><div class="label">Petrus Rocket of Ballytarsna: post-medieval patriarch in the working reconstruction</div></div>
+    </section>
 
-    <div class="toc">
-      <h4>On this page</h4>
+    <section>
+      <h2>What has been found so far</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>1. A strong medieval surname corridor</h3>
+          <p>Rokele / de la Rochelle / Rupella records appear in Anglo-Norman England and Ireland, including Justiciar Sir Richard de Rupella in Ireland from 1245-46 and Iverk/Kilkenny free-tenant evidence in 1314.</p>
+        </div>
+        <div class="card">
+          <h3>2. South-east Ireland continuity signals</h3>
+          <p>The strongest local corridor runs through Iverk, Fiddown/Kelroske, Waterford, Carrick/Suir, Gortardagh/Rockett's Castle, and Ballytarsna. The 1314-&gt;1590s and 1635-&gt;1720 generation bridges remain open.</p>
+        </div>
+        <div class="card">
+          <h3>3. The Norman-origin question is nuanced</h3>
+          <p>The d'Eu / de Ou / Doe naming connection is real in the evidence: multiple sources place those forms beside de la Rochelle / de Rokele / Rupella forms. The open question is what kind of connection it represents.</p>
+        </div>
+        <div class="card">
+          <h3>4. Genetic genealogy may add an independent test</h3>
+          <p>Documented Y-DNA comparisons between male-line Rockett, Rocket, Rokell, Rockell, and Rochwell testers could test whether paper-trail clusters share a paternal ancestor.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Current interpretation</h2>
+      <div class="grid">
+        <div class="card"><h3>A peerage-adjacent gentry network</h3><p>The evidence increasingly points to a long-lived Anglo-Norman gentry family network: close to titled society, repeatedly in royal service, and visible through wardship, livery, sheriff accounts, city government, inquisitions, and land transactions.</p></div>
+<div class="card"><h3>Langland and the Rokele question</h3><p>Robert Adams&#x27; Langland work is treated here as an important secondary interpretation: it strengthens the case that Langland belonged within, or was closely connected to, the wider Rokele family network. The site presents that as a serious scholarly strand, not as a substitute for primary-source branch proof.</p></div>
+<div class="card"><h3>One root family, tested branch by branch</h3><p>Many English Rokele/Rokell/Roucle lines and the Irish Rokele/Rockett corridor can plausibly be read as parts of one wider root-family structure. Some place-name formations remain separate or unresolved, so the public standard is to test each branch link against named records.</p></div>
+<div class="card"><h3>Royal and civic service over centuries</h3><p>Across the records, Rokele-family members or close collateral lines appear in direct service to kings, queens, royal administrators, bishops, earls, civic corporations, and regional governments. That pattern is a central part of the family history, not a footnote.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Name forms and the d'Eu question</h2>
+      <p>The evidence now supports treating d'Eu / de Ou / Doe as a real naming problem within the Rokele research, not as a dismissed lead. The unresolved question is the nature of that connection.</p>
+      <table>
+        <thead><tr><th>Name forms</th><th>Evidence pattern</th><th>Public reading</th></tr></thead>
+        <tbody>
+          <tr><td>de Ou / d&#x27;Ou / Doe / d&#x27;Eu</td><td>VCH Essex, Morant, Brook Street Hospital charters, and South Ockendon/Willingale material show de Ou/Doo/Doe forms alongside de la Rochelle/Rokele forms in the same family context.</td><td>The d&#x27;Eu/de Ou connection is real as a naming and family-context problem. What remains open is whether it means comital Eu descent, honour/tenurial association, or a related Anglo-Norman place-name convention.</td></tr>
+<tr><td>de la Rochelle / de Rochella / Rupella / de la Rokele</td><td>Latin, French, and English record forms vary by clerk, language, and source type. The same family corridor can appear under Rochelle, Rochella, Rupella, Rokele, Rokell, and later Rocket/Rockett-like forms.</td><td>These are treated as an evidence cluster, not as automatically identical in every record. Context, place, date, office, family links, and property have to carry the identification.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Marriage alliances into Rokele lines</h2>
+      <p>Several women from established families appear marrying into Rokele, Rokell, Roucle, Rockoll, or Rockall lines. These marriages are important status evidence, but each one is kept separate from the question of direct descent.</p>
+      <table>
+        <thead><tr><th>Period</th><th>Confidence</th><th>Woman</th><th>Married into</th><th>Why it matters</th></tr></thead>
+        <tbody>
+          <tr><td>13th century</td><td><span class="badge high">HIGH</span></td><td>Mathilda / Matilda de Columbariis</td><td>Richard de la Rokele / de Rupella, Justiciar-line</td><td>A high-status Anglo-Norman marriage-in signal; the project treats her as wife of Richard de la Rokele rather than William.</td></tr>
+<tr><td>1198</td><td><span class="badge high">HIGH</span></td><td>Amice</td><td>Bernard de la Rokele</td><td>Appears with Bernard in a Feet of Fines concord for Willingale and Shellow. Her family origin is not yet identified, but the wife/land-transaction context is strong.</td></tr>
+<tr><td>1295-1302</td><td><span class="badge high">HIGH</span></td><td>Joan / Johanna</td><td>Philip de la Rokele</td><td>Repeatedly appears as Philip&#x27;s widow in dower and plea records across Irish and English property interests. Her maiden family remains unresolved.</td></tr>
+<tr><td>14th century</td><td><span class="badge high">HIGH</span></td><td>Isabel Botiller / Boteler</td><td>Geoffrey de la Rokele / Roukele</td><td>Connects a Rokele/Roucle branch to the Botiller/Butler name. This appears strongest in the Hampshire/Cluster-H material, so it is presented as collateral unless further bridged.</td></tr>
+<tr><td>15th century</td><td><span class="badge medium">MEDIUM</span></td><td>Eleanor Montfort</td><td>Geoffrey Rokell of the Essex/Wormingford line</td><td>Potentially important Montfort marriage-in tradition, but currently dependent on visitation/genealogical evidence rather than a fully recovered primary instrument.</td></tr>
+<tr><td>1620</td><td><span class="badge high">HIGH</span></td><td>Latina / Letitia Power alias Rockoll</td><td>Tallow/Waterford Rockoll or Rockell line</td><td>A major Irish alliance signal: Power was a leading Waterford/Curraghmore regional family. The widow evidence is strong for a Rockoll-Power marriage context.</td></tr>
+<tr><td>1635</td><td><span class="badge high">HIGH</span></td><td>Maria Rockall</td><td>Edwardus Rockall</td><td>Named as Edwardus Rockall&#x27;s widow in the Tallow IPM context. Her birth family is not yet identified, but the widow attestation is firm.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Additional medieval findings</h2>
+      <div class="grid">
+        <div class="card"><h3>Administrative and civic offices</h3><p>The medieval material is not only a list of names. It includes office-holding: a Justiciar of Ireland, Waterford and Cross-Tipperary shrieval connections, a London sheriff/alderman collateral line, and a Waterford mayoral appearance.</p></div>
+<div class="card"><h3>Dublin and Crown administration</h3><p>Sir Richard de Rupella is recorded in the Irish administration from 1245-46, with Dublin/Connacht connections and later escheat/livery records tying the family into Crown administration across England and Ireland.</p></div>
+<div class="card"><h3>Iverk and the Suir valley</h3><p>The 1314 Iverk extent gives John de la Rokell at Fidon-in-Croc and William de la Rokell at Kelroske. Later Ormond and Waterford material suggests continued regional status before the early-modern move into the Rockett/Rockell/Rochwell spelling range.</p></div>
+<div class="card"><h3>English and London collateral lines</h3><p>London and Essex records show additional Rokele/Rokell office-holders and merchants. These are important for the wider surname history, but they are not presented here as proven direct ancestors of the south-east Ireland line.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Civic and administrative offices</h2>
+      <p>These offices are important because they show the surname cluster appearing in public administration, city government, and Crown record contexts. They do not by themselves prove a continuous father-to-son pedigree.</p>
+      <table>
+        <thead><tr><th>Period</th><th>Confidence</th><th>Person</th><th>Office</th><th>Place</th><th>Why it matters</th><th>Source ref</th></tr></thead>
+        <tbody>
+          <tr><td>1245-46</td><td><span class="badge high">HIGH</span></td><td>Sir Richard de Rupella</td><td>Justiciar of Ireland</td><td>Dublin / Connacht</td><td>Earliest currently documented Rokele/Rupella administrative presence in Ireland.</td><td><code>CDRI-V1; CFR-V1-EDW-I</code></td></tr>
+<tr><td>1260s-1290s</td><td><span class="badge high">HIGH</span></td><td>Sir William de Rupella / de la Rochelle</td><td>Sheriff of Waterford / Crown officer</td><td>Waterford / Cork</td><td>A separate Munster shrieval strand that may help explain later Waterford-Iverk connections; exact father-to-son bridge remains under study.</td><td><code>CDRI; DKR; GO MS references</code></td></tr>
+<tr><td>1342-1346</td><td><span class="badge high">HIGH</span></td><td>John de la Rokele</td><td>Sheriff of London; later alderman witness</td><td>London</td><td>Important collateral civic line; the current evidence does not make him the same person as an Irish cadet ancestor.</td><td><code>Letter-Book F</code></td></tr>
+<tr><td>1345-1346</td><td><span class="badge high">HIGH</span></td><td>Richard de la Rokele</td><td>Sheriff of Waterford</td><td>Waterford</td><td>A key Waterford administrative link between the post-1289 Rokele family and later Suir-valley records.</td><td><code>CIRCLE / Irish exchequer memoranda</code></td></tr>
+<tr><td>1377-1383</td><td><span class="badge high">HIGH</span></td><td>William Rokell</td><td>Sheriff of Cross-Tipperary</td><td>Tipperary / Waterford border region</td><td>Repeatedly attested in Irish exchequer memoranda, strengthening the 14th-century Waterford-Tipperary corridor.</td><td><code>COA Lynch repertory</code></td></tr>
+<tr><td>1393 / 1412</td><td><span class="badge high">HIGH</span></td><td>John Rocket</td><td>Mayor of Waterford</td><td>Waterford City</td><td>The civic office itself is treated as high-confidence; his exact genealogical placement remains separate from the office attestation.</td><td><code>Waterford mayoral lists; CSPI references</code></td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Key public timeline</h2>
+      <table>
+        <thead><tr><th>Year</th><th>Confidence</th><th>Finding</th><th>Place</th><th>Source ref</th></tr></thead>
+        <tbody>
+          <tr><td>1086</td><td><span class="badge high">HIGH</span></td><td>Malgerius de Rokesle associated with Rochelei/Ruxley, Kent, in Domesday-era evidence — earliest broad Rokesle name-form currently in the research corpus, but treated as a separate Kent cluster rather than an ancestor of the south-east Ireland line</td><td>Rochelei / Ruxley, Kent</td><td><code>Domesday Book; Hasted Kent</code></td></tr>
+<tr><td>1100-1135</td><td><span class="badge high">HIGH</span></td><td>Godfrey de la Rochelle demesne sub-tenant under Geoffrey de Mandeville Henry I 1100-1135 — earliest currently documented Rokele in Essex</td><td>South Ockendon, Essex</td><td><code>VCH-ESSEX-V7</code></td></tr>
+<tr><td>1130</td><td><span class="badge high">HIGH</span></td><td>Humphrey de Rochella in the Pipe Roll 31 Henry I, Dorset Danegeld pardon — earliest currently traced Rochella/Rokele-form entry in the English Pipe Roll corpus</td><td>Dorset, England</td><td><code>PR-31-HEN-I</code></td></tr>
+<tr><td>1163-1187</td><td><span class="badge high">HIGH</span></td><td>Brook Street Hospital charters where William Doo / D&#x27;Ou / de la Rochelle / de la Rokele uses interchangeable bynames — keystone for dual-name convention</td><td>Brook Street Hospital (South Weald), Essex</td><td><code>BROOK-STREET-HOSP</code></td></tr>
+<tr><td>1175-1176</td><td><span class="badge high">HIGH</span></td><td>William &#x27;La Rokella&#x27; receives 4 livres for 20 measures of grain — definite-article Anglo-Norman locative form</td><td>Oxfordshire, Oxfordshire</td><td><code>PIPE-ROLL-22HEN-II</code></td></tr>
+<tr><td>1198</td><td><span class="badge high">HIGH</span></td><td>William Doo / D&#x27;Ou / de la Rochelle / de la Rokele d.1198 South Ockendon — bridge generation between Henry I Godfrey 1100-35 and William II d.1226</td><td>South Ockendon, Essex</td><td><code>VCH-ESSEX-V7</code></td></tr>
+<tr><td>1242</td><td><span class="badge high">HIGH</span></td><td>Heir of William de la Rokeles in royal wardship to Philip d&#x27;Aubigny — terra de Willinghal&#x27; valet x.l.</td><td>Willingale Doe, Essex</td><td><code>LIBER-FEODORUM-1242</code></td></tr>
+<tr><td>1245-1246</td><td><span class="badge high">HIGH</span></td><td>Justiciar Sir Richard de Rupella horse-purchase mandate Pat 30 Hen III — earliest currently documented Rokele in Ireland</td><td>Dublin</td><td><code>CDRI-V1</code></td></tr>
+<tr><td>1276</td><td><span class="badge high">HIGH</span></td><td>Escheat of Justiciar Richard&#x27;s lands — death-date corrects DIB 6 Dec 1276 → ~early Apr 1276</td><td>Havering</td><td><code>CFR-V1-EDW-I</code></td></tr>
+<tr><td>1277</td><td><span class="badge high">HIGH</span></td><td>Philip de la Rokele English livery post-homage</td><td>Westminster</td><td><code>CFR-V1-EDW-I</code></td></tr>
+<tr><td>1277</td><td><span class="badge high">HIGH</span></td><td>Irish-livery writ to Robert de Offord Justiciary of Ireland for Connacht/Wicklow</td><td>Gloucester</td><td><code>CFR-V1-EDW-I</code></td></tr>
+<tr><td>1289</td><td><span class="badge high">HIGH</span></td><td>Margery de la Rokele IPM names patrilineal stem Richard→Robert→John+Margery TNA C 133/54/14</td><td>Tipperary</td><td><code>CIPM-V3</code></td></tr>
+<tr><td>1289</td><td><span class="badge high">HIGH</span></td><td>Margery escheat Adlangport+Fydoun to Hugh de Bruges valet at the extent</td><td>Adlangport (Woodstown), Co Waterford</td><td><code>LIS-320</code></td></tr>
+<tr><td>1295</td><td><span class="badge high">HIGH</span></td><td>Philip de la Rokele d.5 Oct 1295 Canterbury</td><td>Canterbury</td><td><code>CFR-V1-EDW-I</code></td></tr>
+<tr><td>1301</td><td><span class="badge high">HIGH</span></td><td>Maud le Brun livery (post-stepfather Richard de Chigewell wardship cascade) escheator beyond Trent Walter de Gloucestria CCR Vol IV p.453 mb.7</td><td>Tynemouth</td><td><code>CCR-V4-EDW-I</code></td></tr>
+<tr><td>1314</td><td><span class="badge high">HIGH</span></td><td>John de la Rokell holds Fidon-in-Croc by suit of court at Ballybramoth — verbatim Burtchaell 1314 Iverk extent</td><td>Fidon-in-Croc, Co Kilkenny</td><td><code>BURTCHAELL-1893</code></td></tr>
+<tr><td>1314</td><td><span class="badge high">HIGH</span></td><td>William de la Rokell holds Kelroske — verbatim Burtchaell 1314 Iverk extent</td><td>Kelroske, Co Kilkenny</td><td><code>BURTCHAELL-1893</code></td></tr>
+<tr><td>1359</td><td><span class="badge high">HIGH</span></td><td>Richard Dodde × Richard de la Rokelle agreement — Dodde to aid Rokelle&#x27;s claim to Dunmore</td><td>Dunmore, Co Kilkenny</td><td><code>ORMOND-V2</code></td></tr>
+<tr><td>1374</td><td><span class="badge high">HIGH</span></td><td>William de la Rokele acknowledges receipt of money from James 2nd Earl of Ormond</td><td>Ormond, Co Kilkenny</td><td><code>ORMOND-V2</code></td></tr>
+<tr><td>1393</td><td><span class="badge high">HIGH</span></td><td>John Rocket attested as Mayor of Waterford — important late-medieval civic-office anchor for the surname in the city</td><td>Waterford City, Co Waterford</td><td><code>CSPI-CHAS-II</code></td></tr>
+<tr><td>1593-1602</td><td><span class="badge high">HIGH</span></td><td>Robertus Poer Fitz-Piers 25 Aprilis Athloypot — Co Waterford Rolls Office Inq Eliz I entry No.6</td><td>Athloypot (Clondonell), Co Waterford</td><td><code>RECCOMM-1819</code></td></tr>
+<tr><td>1595</td><td><span class="badge high">HIGH</span></td><td>Redmundus Rockett IPM 3 Jan 37 Eliz I item 40</td><td>Blackfriars, Co Waterford</td><td><code>VRTI</code></td></tr>
+<tr><td>1602</td><td><span class="badge high">HIGH</span></td><td>Livery Nicholas Rocket of Atlongport son+heir of Redmund — Fiant 6749 verbatim Atlongport spelling</td><td>Atlongport, Co Waterford</td><td><code>MORRIN-V2</code></td></tr>
+<tr><td>1606</td><td><span class="badge high">HIGH</span></td><td>Manor of Kilmeaden IPM at RuckellsCastell 4 Jas I</td><td>Manor of Kilmeaden / RuckellsCastell, Co Waterford</td><td><code>RECCOMM-1819</code></td></tr>
+<tr><td>1620</td><td><span class="badge high">HIGH</span></td><td>Jacobus Rockell d.3 Apr 1620 Tallow — IPM 24 Jul 1620 — latest currently traced patent-class Rockett proprietor</td><td>Tallow, Co Waterford</td><td><code>VRTI</code></td></tr>
+<tr><td>1630</td><td><span class="badge high">HIGH</span></td><td>Nicholas Rockell IPM names heir Edward Rockell aged 16 + 1619 Stephen Strange mortgage</td><td>Blackfriars, Co Waterford</td><td><code>VRTI</code></td></tr>
+<tr><td>1632-1635</td><td><span class="badge high">HIGH</span></td><td>Edwardus Rockall IPM names widow Maria Rockall + father Jacobus d.3 Apr 1620 — latest currently traced chancery appearance under Charles I</td><td>Tallow, Co Waterford</td><td><code>VRTI</code></td></tr>
+<tr><td>1640</td><td><span class="badge high">HIGH</span></td><td>Civil Survey VI 1640 + Vol I Tipperary 1640 records no Rockett surname in the checked Civil Survey corpus — evidence favours a Stuart-mortgage displacement pathway over a simple 1652 Cromwellian explanation</td><td>Co Waterford</td><td><code>CIVIL-SURVEY-V6</code></td></tr>
+<tr><td>1641</td><td><span class="badge high">HIGH</span></td><td>Wm Power of Rathgormuck Protestant = redemption-leaseholder on Nicholas Power parcels — recusant-trustee shield blocking Cromwellian forfeiture under 30 Nov 1654 Council Order</td><td>Rathgormuck, Co Waterford</td><td><code>CIVIL-SURVEY-V6</code></td></tr>
+<tr><td>1659</td><td><span class="badge high">HIGH</span></td><td>6 Rockwell/Rochwell sub-tenant households Pender 1659 Co Waterford Upperthird Principall Irish Names — on Power Fitz-Piers estate under Wm Power Protestant trustee</td><td>Clondonell+Kilballykilty+Knocklaffally, Co Waterford</td><td><code>PENDER-1659</code></td></tr>
+<tr><td>1666</td><td><span class="badge high">HIGH</span></td><td>Richard Strang of Rockwells Castle signs Walsh Loyal Remonstrance as Catholic recusant gentleman</td><td>Rockwells Castle, Co Waterford</td><td><code>CSPI-CHAS-II</code></td></tr>
+<tr><td>1720</td><td><span class="badge high">HIGH</span></td><td>Petrus Rocket b.~1720 Ballytarsna Mooncoin = post-medieval patriarch in this working reconstruction (NLI vtls635311 p043 + vtls635313 p100)</td><td>Ballytarsna, Co Kilkenny</td><td><code>CIVIL-SURVEY-V6</code></td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>What genetic genealogy may add</h2>
       <ul>
-        <li><a href="#origin">Where the surname comes from</a></li>
-        <li><a href="#variants">The many spellings</a></li>
-        <li><a href="#norman">The Norman origin</a></li>
-        <li><a href="#mandeville">Joining the Mandevilles</a></li>
-        <li><a href="#noble">Marriages into the nobility</a></li>
-        <li><a href="#people">Famous people in the family</a></li>
-        <li><a href="#ireland">The Irish branch</a></li>
-        <li><a href="#castle">Rocketts Castle, Portlaw &amp; Curraghmore</a></li>
-        <li><a href="#bordeaux">The Bordeaux branch</a></li>
-        <li><a href="#crusades">Crusades and the military orders</a></li>
-        <li><a href="#langland">William Langland and <em>Piers Plowman</em></a></li>
-        <li><a href="#geffrey">Geffrey Rokell of Colchester, 1463</a></li>
-        <li><a href="#places">Where the family lived</a></li>
-        <li><a href="#timeline">A 700-year timeline</a></li>
-        <li><a href="#waterford">The Waterford line</a></li>
-        <li><a href="#research">Research your own line</a></li>
-        <li><a href="heraldry.html">Coats of arms &rarr;</a></li>
+        <li>Y-DNA follows a direct paternal line and can test whether male-line Rockett, Rocket, Rokell, Rockell, Rochwell, and related surname lines share a recent or deep common ancestor.</li><li>A Y-DNA result cannot by itself prove a Norman origin. Its value comes from comparing well-documented paternal lines and placing them on a dated haplogroup tree.</li><li>Autosomal DNA is most useful for recent cousin relationships, while Y-DNA is the better tool for surname-line questions that may extend beyond the paper trail.</li><li>mtDNA follows a direct maternal line. It is valuable for personal ancestry research, but it does not normally test the Rockett surname line unless that surname happens to sit on the direct maternal chain.</li>
       </ul>
-    </div>
-
-  </div>
-</section>
-
-<section id="origin">
-  <div class="wrap">
-    <h2>Where the surname comes from</h2>
-
-    <p>The Rockett surname is one of the oldest in the English-speaking world. It is recorded in <em>Domesday Book</em>, the great survey commissioned by William the Conqueror in 1086, which means that someone bearing it was already in England within twenty years of the Norman Conquest. By the end of the twelfth century, branches of the family held land in at least five English counties and were intermarrying with the Earls of Essex.</p>
-
-    <p>The name has had many spellings over the last thousand years &mdash; <em>Rochelei</em>, <em>de la Rochelle</em>, <em>de Rupella</em>, <em>Rokele</em>, <em>Rokesle</em>, <em>Rokeles</em>, <em>Rokill</em>, <em>Rokell</em>, <em>Rockwell</em>, <em>Rochwell</em>, <em>Roket</em>, and finally <em>Rockett</em> &mdash; and most of them are simply scribal variants of the same root.</p>
-
-    <p>The root itself is Norman-French, and it means <em>little rock</em>. In Latin it is written <em>Rupella</em>, from <em>rupes</em>, a rocky outcrop. In Old French it is <em>la Rochelle</em>, the diminutive of <em>la roche</em>, a rock. The Anglo-Norman scribes of the twelfth century would write whichever form felt natural in the document they were drafting. The same individual, in the same year, can appear as <em>Ricardus de Rupella</em> in a chancery roll and as <em>Sir Richard de la Rokele</em> in a vernacular charter.</p>
-
-    <div class="pullquote">
-      &ldquo;Richard de Rupella, afterwards called Rokele.&rdquo;
-    </div>
-    <p>That sentence comes from Francis Blomefield&rsquo;s <em>History of Norfolk</em>, published in 1805, describing a land transaction at Shimpling in 1237. Blomefield was a meticulous antiquary who had the original fine roll in front of him. The parenthesis is his own, and it is the clearest single statement in the published record that Rupella and Rokele are the same name.</p>
-
-    <h3>So what does the surname mean?</h3>
-
-    <p>It is a <em>toponymic</em> surname &mdash; a name taken from a place. The family is named after a rocky place, somewhere small enough to be a <em>little</em> rock. But which rocky place? That has been the central question of three centuries of family historians, and the answer is now reasonably clear: it is <em>not</em> the same place for every branch.</p>
-
-  </div>
-</section>
-
-<section id="variants">
-  <div class="wrap">
-    <h2>The many spellings</h2>
-
-    <p>If you bear the Rockett name and have hit an archive search-engine that demands an exact spelling, this is the list of forms you should also try. They are all the same name. They are arranged below in roughly chronological order of when each spelling was most common.</p>
-
-    <div class="variants">
-      <span class="variant-chip">Rochelei</span>
-      <span class="variant-chip">de la Rochelle</span>
-      <span class="variant-chip">de Rupella</span>
-      <span class="variant-chip">Rupella</span>
-      <span class="variant-chip">de Rochella</span>
-      <span class="variant-chip">de Rochello</span>
-      <span class="variant-chip">de la Rokele</span>
-      <span class="variant-chip">Rokele</span>
-      <span class="variant-chip">Rokesle</span>
-      <span class="variant-chip">Rokesleye</span>
-      <span class="variant-chip">Rokeslegh</span>
-      <span class="variant-chip">Rokelle</span>
-      <span class="variant-chip">Rokeles</span>
-      <span class="variant-chip">Rokella</span>
-      <span class="variant-chip">Rokel</span>
-      <span class="variant-chip">Rokell</span>
-      <span class="variant-chip">Rokill</span>
-      <span class="variant-chip">Rokyll</span>
-      <span class="variant-chip">Rokelse</span>
-      <span class="variant-chip">Rokey</span>
-      <span class="variant-chip">Roket</span>
-      <span class="variant-chip">Rocket</span>
-      <span class="variant-chip">Rockett</span>
-      <span class="variant-chip">Rockwell</span>
-      <span class="variant-chip">Rockell</span>
-      <span class="variant-chip">Rochwell</span>
-      <span class="variant-chip">Rochel</span>
-    </div>
-
-    <p>The Latin forms (<em>Rupella, de Rupella, de Rochella, de Rochello</em>) dominate twelfth- and thirteenth-century chancery documents. The Anglo-Norman forms (<em>de la Rokele, Rokesle, Rokell</em>) dominate fourteenth-century English documents. The modernised forms (<em>Roket, Rocket, Rockett</em>) emerge in the fifteenth and sixteenth centuries. By 1600 the spelling has largely settled into the family of forms still in use today.</p>
-
-    <div class="notice">
-      <strong>One thing to bear in mind.</strong> Not every Rockett descends from the medieval family on this page. There are Rocketts in the English West Country (Devon, Somerset) and among the 1630s emigrants to New England whose link to the medieval Norman family is <em>unproven</em> &mdash; they could be a cadet branch of it (that family was already established across Wiltshire, Dorset and Somerset), or a separate surname-origin altogether. Only Y-DNA testing could really tell them apart. Be wary, too, of folk-etymologies: the once-popular idea that the name is a French Huguenot &ldquo;Rocquet&rdquo; is rejected by the standard authority on Irish surnames, MacLysaght. If your earliest known ancestor is, say, a Devon Rockett of the 1660s, treat the medieval pedigree above as a hypothesis to test, not as your established ancestry.
-    </div>
-
-  </div>
-</section>
-
-<section id="norman">
-  <div class="wrap">
-    <h2>The Norman origin</h2>
-
-    <p>The most-supported account of where the family came from, based on the surviving documents, is this. They were Norman gentry, established in Normandy before 1066, who came to England with William the Conqueror or one of his close lieutenants. They were either themselves a cadet branch of the Counts of Eu &mdash; one of the half-dozen great comital families of pre-Conquest Normandy &mdash; or were tied to that family by close service and marriage. The Counts of Eu came to Hastings with sixty ships under Count Robert of Eu, who is named in Wace&rsquo;s twelfth-century <em>Roman de Rou</em> as one of the senior commanders at the battle.</p>
-
-    <p>By 1086 a man named Malgerius held the manor of Rochelei (modern Ruxley) in Kent, in <em>Domesday Book</em>, as a tenant of Bishop Odo of Bayeux. By 1130 a Humfrid de Rochella witnessed the foundation charter of Walden Abbey in Essex for Earl Geoffrey de Mandeville I, and held land in Dorset. By 1166 a William de Rochel held three-quarters of a knight&rsquo;s fee on the Mandeville Essex honour, sitting in the same charter alongside William de Eu (four fees, a substantial old enfeoffment) and Hugo de Eu (one new fee).</p>
-
-    <h3>The byname trick</h3>
-
-    <p>One of the strongest clues to the family&rsquo;s comital-Eu connection is the Norman-French custom of bearing two names at once. The same individual would be styled by his <em>seat</em> in one document, and by his <em>kin</em> in another. The historian Philip Morant, writing in 1768 with access to deeds that no longer survive, recorded that William de Rokella, who held South Ockendon in Essex about 1175, was &ldquo;in some deeds styled William de Eu&rdquo;. In 1234 a sworn jury at the parish of Willingale Doe in Essex named a William &ldquo;Do&rdquo; or &ldquo;de Augo&rdquo; as parson of the church, treating the two forms as the same byname.</p>
-
-    <p>This is the documentary substrate for the parochial name Willingale Doe itself: the &ldquo;Doe&rdquo; in the village name is a hardened spelling of <em>de Eu</em>, &ldquo;of Eu&rdquo;. The parish was &ldquo;Willingale of the d&rsquo;Eu family&rdquo;, the same way that nearby Willingale Spain was &ldquo;Willingale of the Espayne family&rdquo;. The fact that the Rokeles held this manor and were sometimes also called <em>de Eu</em> is the strongest single piece of evidence we have that they were comital-Eu cadets, or married into the comital family early enough to inherit the byname.</p>
-
-    <h3>The specific Norman seat is not known</h3>
-
-    <p>What we do <em>not</em> know is the exact rocky place in Normandy that gave the family its principal byname. La Rochelle-Normande in the Cotentin, sometimes named in earlier family histories, is now ruled out: a separate Norman family (the Heriz) only adopted <em>de Rochella</em> as their byname between 1162 and 1213, and Domesday Malgerius bears the <em>Rochelei</em> form already in 1086, almost a century earlier. The English family cannot be named after a French place that did not yet have the name when the English family already did.</p>
-
-    <p>Candidate seats remain La Rochelle-Barneville in the Manche, La Rochelle-Louviers in the Eure, and various lost or renamed rocky-place toponyms in the Pays de Caux and the comt&eacute; of Eu itself. The question is genuinely open and would be answered by access to Marie Fauroux&rsquo;s 1961 edition of the Norman ducal acts before 1066, Elisabeth van Houts&rsquo;s 1992&ndash;95 edition of William of Jumi&egrave;ges, or Katharine Keats-Rohan&rsquo;s <em>Domesday People</em> &mdash; all of which exist in print but are not freely online.</p>
-
-    <div class="notice green">
-      <strong>The honest position.</strong> The Rockett family came to England as Norman gentry, established here within a generation of the Conquest (a Rockett is in Domesday Book by 1086), and <em>may</em> have been cadets or close kin of the Counts of Eu &mdash; a hypothesis that fits the evidence but is not proven. They took their byname from a rocky place we have not yet localised. The Battle Abbey Roll, a sixteenth-century antiquarian list of Norman knights at Hastings, names &ldquo;Rokell&rdquo; among them &mdash; this is preserved tradition, not primary record, but the Battle Abbey Roll was compiled by careful Tudor antiquaries with access to documents that have since been lost.
-    </div>
-
-  </div>
-</section>
-
-<section id="mandeville">
-  <div class="wrap">
-    <h2>Joining the Mandevilles</h2>
-
-    <p>By the early twelfth century the family is firmly attached to the most powerful magnate house in eastern England: the Mandeville Earls of Essex. Geoffrey de Mandeville I, ancestor of the earldom, founded Walden Abbey in or around 1130, and Humfrid de Rochella was one of his witnesses. Adams (2013) speculates that Humfrid was a household knight, since he witnessed for Geoffrey more than once and is named alongside other senior Mandeville retainers.</p>
-
-    <p>By 1166, the year of the great <em>Cartae Baronum</em> survey ordered by Henry II, William de Rochel was holding three-quarters of a knight&rsquo;s fee on the Mandeville Essex honour, on the same parchment as William and Hugo de Eu. By 1175 a William de Rokella was on the royal payroll at Burcstal in Bedfordshire, drawing forty shillings a year as a Crown pensioner &mdash; the same exchequer bracket reserved for Faramus of Boulogne, the Hospitallers of Wissant, and Woburn Abbey. The family had arrived at the royal household.</p>
-
-    <h3>The making of an earl-tier kinsman</h3>
-
-    <p>What is certain is that the family married into the kindred of <strong>Geoffrey Fitz Peter, Justiciar of England and Earl of Essex</strong>. The exact marriage, though, is <em>not</em> recorded. Genealogists reconstruct it as a William de la Rokele who, around 1170, married a daughter of Geoffrey Fitz Peter (by his wife Aveline de Clare, daughter of Roger de Clare, 1st Earl of Hertford) &mdash; but that daughter is <strong>unnamed</strong> in the surviving sources, and the &ldquo;Joane fitzPiers&rdquo; sometimes given for her is a modern conjecture, not a documented name.</p>
-
-    <p>What the records <em>do</em> prove is the kinship itself. Sir Richard de Rupella, the Justiciar of Ireland, calls John Fitz Geoffrey (a son of Geoffrey Fitz Peter) his <em>avunculus</em> &mdash; mother&rsquo;s brother &mdash; in a deed of 1264; and Robert Adams (2013) shows from the other side that Richard was first cousin to John Fitz John and Maud Fitz John, &ldquo;both being grandsons of Geoffrey Fitz Peter.&rdquo; So Richard&rsquo;s mother really was a Fitz Peter daughter, which set the family inside the earl-tier web of the Fitz Geoffreys, the Clares, the Bohuns and the Bigods. The precise marriage that first brought them in is a reconstruction; the kinship it produced is documented fact.</p>
-
-    <p>This is the kinship that explains everything that follows. The Rokele family is not nouveau-riche gentry rising through royal service. They are inside the senior baronial-network of England by the 1170s, and they stay there until at least the 1463 Aldham conveyance signed by Geffrey Rokell esquire.</p>
-
-  </div>
-</section>
-
-<section id="noble">
-  <div class="wrap">
-    <h2>Marriages into the nobility</h2>
-
-    <p>Marriage was the central currency of medieval magnate society. A family&rsquo;s standing can be read directly from the families it married into over time. Here are the documented Rokele/Rokesle marriages, drawn from Inquisitions Post Mortem, Patent Rolls, and the antiquarian works of Morant and Cleveland.</p>
-
-    <table>
-      <thead><tr><th>Generation</th><th>Rokele bride or groom</th><th>Married into</th><th>What they brought</th></tr></thead>
-      <tbody>
-        <tr><td class="year">c.1170</td><td>William de la Rokel</td><td>an <em>unnamed</em> daughter of Geoffrey Fitz Peter, Justiciar of England, by Aveline de Clare (the &ldquo;Joane fitzPiers&rdquo; sometimes given is a modern conjecture)</td><td>Earl-tier kinship to Fitz Geoffrey, Clare, Bohun and Bigod &mdash; the kinship is documented (1264 <em>avunculus</em>); this exact marriage is a reconstruction</td></tr>
-        <tr><td class="year">Hen II era</td><td>Richard de la Rokele the elder</td><td>Matilda de Columbariis (Somerset)</td><td>Marriage dowery of Occold and Benningham in Suffolk</td></tr>
-        <tr><td class="year">temp Hen III</td><td>A Rokele daughter</td><td>Reginald de Kareville</td><td>The Norfolk manor of Grangevilles Rockells</td></tr>
-        <tr><td class="year">1295</td><td>Maud de Rokele, daughter of Philip</td><td>Maurice le Brun (Crown service)</td><td>Born in Ireland 1286; brought the Wokyndon line into the Bruyn-of-the-Bedchamber connection</td></tr>
-        <!-- Removed (audit 2026-06): the "Isolda de Rokele, daughter of Philip" row and the "Maud married Lord Grey" row were Philip Morant's errors, shown mistaken by Adams (2013); Maud was Philip's sole heir. -->
-        <tr><td class="year">c.1305</td><td>Maud de Rokele, sole heir of Philip</td><td>Maurice le Bruyn</td><td>Carried the manor of South Ockendon (&ldquo;Wokyndon Rokele&rdquo;) into the Bruyn family &mdash; the line that later reaches the <a href="#brandon">Brandons and Lady Jane Grey</a></td></tr>
-        <tr><td class="year">c.1321</td><td>Joan de Rokesle</td><td>Sir Walter de Pateshulle, knight, of Kent</td><td>Half of the Terlingham estate</td></tr>
-        <tr><td class="year">c.1321</td><td>Agnes de Rokesle</td><td>Thomas de Ponynges (whose grandson became 1st Baron Poynings)</td><td>The other half of the Terlingham estate, plus Westwode</td></tr>
-        <tr><td class="year">c.1310</td><td>An unnamed Cluster K Rokesle daughter</td><td>Reynold de Cobham, knight (Cobham, Kent baronial)</td><td>Three knight&rsquo;s fees at Ospringe, Kent</td></tr>
-        <tr><td class="year">c.1305</td><td>Maud, sister of Richard de la Rokele of Norfolk</td><td>Roger de Fraxino</td><td>The Norfolk manors of Colkirke and Gatele</td></tr>
-        <tr><td class="year">bef. 1289</td><td>Margery de la Rokele (heir of her brother John fitz Robert)</td><td>James Keting of Co. Tipperary</td><td>Carried the Rockett lands of Fiddown and Adlongport into the marriage &mdash; sparking the <a href="#ketyng">Ketyng land fight</a></td></tr>
-        <tr><td class="year">c.1360</td><td>Alice Lair, daughter of Richard Lair of London</td><td>Sir William Bruyn (the Wokyndon name-carrier)</td><td>London city wealth; she later remarried Sir Robert Marney</td></tr>
-        <tr><td class="year">c.1395</td><td>Sir Ingelram Bruyn (Wokyndon)</td><td>Elizabeth de la Pole (later Earls of Suffolk family)</td><td>Pole connection into the fifteenth century</td></tr>
-        <tr><td class="year">c.1310</td><td>Alice de la Rokeley of Norfolk</td><td>Edmund de Ingaldesthorp</td><td>Norfolk Rokeley estate into the Ingaldesthorp inheritance</td></tr>
-      </tbody>
-    </table>
-
-    <p>There are no peasant marriages on this list. By the standards of late-thirteenth-century England, the Rokele family was operating consistently within the second-rank baronial and senior-knightly circles &mdash; not the very top tier of belted earls, but their close cousins and household intimates. Adams (2013) calls this stratum the &ldquo;sub-tic gentry&rdquo;: just below the parliamentary-summons line, but firmly inside the magnate-orbit world.</p>
-
-  </div>
-</section>
-
-<section id="people">
-  <div class="wrap">
-    <h2>Famous people in the family</h2>
-
-    <p>The Rockett family in the medieval centuries produced a striking number of figures of national and even international importance. Six of them are worth knowing.</p>
-
-    <h3 id="malgerius">Malgerius de Rokesle &mdash; Domesday 1086</h3>
-    <p>Malgerius is the earliest Rockett anywhere on the documentary record. <em>Domesday Book</em>, completed in 1086, names him as the holder of <em>Rochelei</em> &mdash; the modern Kent parish of Ruxley &mdash; as a tenant of Bishop Odo of Bayeux, William the Conqueror&rsquo;s half-brother. He held the manor by the unusual military tenure of finding watch and ward at Dover Castle. According to Edward Hasted&rsquo;s <em>History of Kent</em> (1797), Malgerius &ldquo;assumed the surname of Rokesle from his possession and residence at this place&rdquo;. He was the founder of the Kent branch of the family.</p>
-
-    <h3 id="sir-richard">Sir Richard de Rupella &mdash; Justiciar of Ireland, 1261&ndash;65</h3>
-    <p>By far the best-documented Rockett of the entire medieval period. Sir Richard had three careers, one after the other, each of which would have been a peak for a lesser man.</p>
-
-    <p>First, in the 1240s and 1250s, he served Henry III in the duchy of Aquitaine. The royal records of Bordeaux name him as Treasurer of Aquitaine, as Seneschal of Aquitaine, and as Bailli to the king&rsquo;s eldest son Edward (the future Edward I). He drew a twenty-pound annual Crown pension at the Michaelmas Exchequer, &ldquo;to sustain himself in our service&rdquo;, and the king gave him thirty marks for a horse. He was granted Crown legal exemption from being placed on assizes, juries, or recognitions &mdash; a privilege reserved for top-tier royal servants. The chancery dated his charter at Bordeaux on the second of September.</p>
-
-    <p>Second, by 1255 he was Treasurer of Ireland under Henry III, and by 1261 he was Justiciar of Ireland &mdash; the king&rsquo;s deputy in the lordship of Ireland, the chief Crown officer of Dublin. He served as Justiciar until 1265. The chancery rolls preserve his charter of 15 June 1270 at Ballycolin, naming his vill of Disert as a gift to St Mary&rsquo;s Abbey Dublin, with his son William witnessing as &ldquo;Domino Willelmo de Rupella, filio meo&rdquo;.</p>
-
-    <p>Third, somewhere between 1265 and 1272, he exchanged his Essex manors of Willingale and Plesingo for Irish land granted to him by Prince Edward in person. The deed survives at the British Library as Harley Charter 45 D.7. This is the moment the family&rsquo;s centre of gravity moves from England to Ireland.</p>
-
-    <p>On 24 June 1268 he took the cross at the parliament of Northampton, alongside the Lord Edward (the future Edward I) and dozens of other English magnates, for what would become the 1270&ndash;72 crusade to the Holy Land. He died at South Ockendon in Essex on 7 December 1276.</p>
-
-    <h3 id="gregory">Gregory de Rokesle &mdash; Lord Mayor of London</h3>
-    <p>Gregory de Rokesle &mdash; descended from the Kent line of Malgerius, not the Essex line of Sir Richard &mdash; was Lord Mayor of London in 1274&ndash;81 and again in 1284&ndash;85. He was Keeper of the King&rsquo;s Exchange of London, Assay Master General of the King&rsquo;s Mint, and a partner of the Florentine banker Orlandino di Poggio in the Great Recoinage of 1279 under Edward I. He died in 1291 and was buried in the choir of the Greyfriars (later Christ Church) in London, of which he was a major benefactor. His monument has been long defaced.</p>
-
-    <h3 id="walter">Walter de Rokele &mdash; Templar Knight, 1308</h3>
-    <p>Walter was a sworn Knight Templar at the preceptories of Templecombe in Somerset and Sandford-on-Thames in Oxfordshire when, on Edward II&rsquo;s orders following the Papal Bull of Pope Clement V, the Templar order was suppressed in England in January 1308. Walter was arrested with his brethren and committed to the Tower of London. He gave testimony to the official inquisition into Templar practice, and after the dissolution of the order he transferred to the Hospitallers, drawing a Hospitaller pension still recorded in 1338 in the great survey of Prior Philip de Thame. He was probably from the Buckinghamshire branch of the Rokele family (Adams 2013). Robert Adams names a second Templar Rokele &mdash; William &mdash; arrested in the same operation.</p>
-
-    <h3 id="langland">William de la Rokele &mdash; the probable author of <em>Piers Plowman</em></h3>
-    <p>This identification, the central thesis of Robert Adams&rsquo;s 2013 book <em>Langland and the Rokele Family</em>, is the most important contribution to Langland scholarship in fifty years. The poet of <em>Piers Plowman</em>, one of the three or four great English poems of the fourteenth century, was a man named William Langland, son of Eustace de la Rokele of the Buckinghamshire branch.</p>
-
-    <p>The argument runs: the documentary record names a William de la Rokele &mdash; son of Eustace, who was Langland&rsquo;s father by independent attestation &mdash; who served as parson of Easthorpe in Essex 1352&ndash;53, then as parson of Redgrave in Suffolk 1356&ndash;c.1362. In November 1350, while still a layman, he and his wife Cristiana obtained a portable altar from Pope Clement VI, a permission that was sometimes sought during the recurring waves of the Black Death by those preparing for sudden death. He went to Brittany in 1368 in the retinue of Thomas Beauchamp II Earl of Warwick. The dialect-evidence of the poem, the Bohun-Beauchamp connections it presupposes, and the inside knowledge it shows of London law and the Despenser estates of Hampshire, all converge on him.</p>
-
-    <p>If Adams is right, the poet of <em>Piers Plowman</em> was a member of the Rokele family. He was great-great-great-grandson of Sir Richard the Justiciar.</p>
-
-    <h3 id="geffrey">Geffrey Rokell &mdash; the fifteenth-century survivor</h3>
-    <p>The last well-documented Rokell of the medieval period is Geffrey Rokell, esquire, of Colchester. We can follow his career across forty years. In February of one of the early years of Henry VI&rsquo;s reign (about 1422&ndash;29), he was among the men pardoned forty shillings in the king&rsquo;s hanaper for acquiring the manor of Pycotes in Ardleigh, Essex, without licence. On 21 December 1463, three years into the reign of Edward IV, he and the abbot of St John&rsquo;s Colchester conveyed Aldham Hall and Hoggekyns farm to Robert Tey, esquire, and Elizabeth his wife. His arms were recorded on a window or monument of Aldham church: <em>Gules, a fesse lozengy ermine, between three martlets argent</em>. <a href="heraldry.html#primary">See the shield drawn in proper colours &rarr;</a></p>
-
-    <p>He is the last member of the family to appear in this kind of senior-knightly Essex context. After him, the documentary record of the senior English branches grows sparse.</p>
-
-    <h3 id="brandon">A crown in the family tree &mdash; Maud de Rokele to Lady Jane Grey</h3>
-    <p>The senior English line carried Rokele blood into the very heart of Tudor royalty. When Philip de la Rokele died in 1295, his heir was his daughter <strong>Maud</strong> (born in Ireland in 1286), who married <strong>Maurice le Bruyn</strong> and carried the family&rsquo;s manor of South Ockendon in Essex into the Bruyn family &mdash; the manor was even renamed &ldquo;Bruyns&rdquo; in memory of the match. Five generations on, the Bruyn line ended in an heiress, <strong>Elizabeth Bruyn</strong> (d. 1494), who married <strong>Sir William Brandon</strong> &mdash; Henry Tudor&rsquo;s standard-bearer, cut down at the king&rsquo;s side at Bosworth Field in 1485. Their son was <strong>Charles Brandon, 1st Duke of Suffolk</strong>, Henry VIII&rsquo;s closest friend, who in 1515 married the king&rsquo;s sister, <strong>Mary Tudor</strong>. Charles and Mary&rsquo;s daughter, <strong>Frances Brandon</strong>, was the mother of <strong>Lady Jane Grey</strong> &mdash; the &ldquo;Nine Days&rsquo; Queen&rdquo; of 1553. The same descent runs on through the Grey and Seymour lines to the Dukes of Somerset and, by marriage, to the Percy Dukes of Northumberland &mdash; so Rokele blood is carried in the British aristocracy to this day.</p>
-    <div class="notice">
-      <strong>An honest caveat.</strong> This royal descent runs through <em>Maud</em>, on the female side &mdash; a cognatic line, not the male Rockett surname. It is a cousinly branch of the senior <em>English</em> family, and is <em>not</em> the ancestry of the Irish Rocketts of the Suir valley, who descend from the separate Iverk cadet line. The Rocketts and Lady Jane Grey share medieval ancestors; they are not the same line.
-    </div>
-
-  </div>
-</section>
-
-<section id="ireland">
-  <div class="wrap">
-    <h2>The Irish branch</h2>
-
-    <p>Ireland is where the family&rsquo;s centre of gravity moves. From the middle of the thirteenth century the senior English (Cluster B) line plants itself in the lordship of Ireland through Crown office; over the following hundred years it sinks roots into the lower Suir valley &mdash; the borderland where Counties Waterford, Kilkenny and Tipperary meet &mdash; and it is there, in the parishes of the lower Suir, that Rocketts are still found today. This is the most detailed and consequential chapter of the whole story, and the one most directly connected to the living family.</p>
-
-    <h3>Sir Richard de Rupella, the king&rsquo;s deputy in Ireland</h3>
-    <p>The figure who anchors the family in Ireland is Sir Richard de Rupella, the same man who served as Treasurer and Seneschal of Aquitaine. By 1255 he was in Dublin as deputy to his maternal uncle John FitzGeoffrey, the Justiciar of Ireland, and serving as Treasurer of Ireland. In August 1258 Theobald Walter Butler granted him &ldquo;all Omany&rdquo; (Ormond Deed 124) &mdash; the earliest direct Butler&ndash;Rockett land grant, and the start of a working relationship with the house of Ormond that would shape the family for three centuries. By 1261 Richard was himself Justiciar of Ireland, the king&rsquo;s chief officer in the lordship, and he held the office until 1265.</p>
-
-    <p>His tenure ran straight into the great baronial war between the Geraldines and the de Burghs. In 1264&ndash;65 Richard was captured &mdash; alongside Theobald Butler &mdash; by Maurice FitzMaurice FitzGerald, and held during the upheaval that paralysed the Dublin government. He recovered, and in 1270 granted the vill of Disert to St Mary&rsquo;s Abbey, Dublin, in a charter witnessed by his son as &ldquo;Domino Willelmo de Rupella, filio meo&rdquo; (&ldquo;Lord William de Rupella, my son&rdquo;). Between 1265 and 1272 he exchanged his Essex manors for Irish land granted to him by the Lord Edward in person, and he remained tied to Ireland until his death at South Ockendon in 1276.</p>
-
-    <div class="notice green">
-      <strong>The kinship that brought them to Ireland.</strong> The family did not marry its way into Ireland &mdash; it was carried there by blood. Sir Richard&rsquo;s mother was a daughter of <strong>Geoffrey Fitz Peter, Earl of Essex and Justiciar of England</strong>, which made Richard the nephew of <strong>John Fitz Geoffrey, Justiciar of Ireland</strong> (1245&ndash;56). In a quit-claim drawn up at Kilkenny Castle in 1264, Richard calls John Fitz Geoffrey his <em>avunculus</em> &mdash; his mother&rsquo;s brother &mdash; the single clearest primary-source proof of the link. Robert Adams (2013) reaches the same point from the other side: Richard was first cousin to John Fitz John and to Maud Fitz John, &ldquo;both being grandsons of Geoffrey Fitz Peter.&rdquo; Richard came to Ireland in the 1250s precisely as <strong>deputy to his uncle the Justiciar</strong>, and rose to the office himself by 1261. (His mother is most likely the widow Joan de la Rochelle recorded in 1233; which of Geoffrey&rsquo;s daughters she was is probable rather than proven.)
-    </div>
-
-    <p><strong>What that 1264 deed actually was.</strong> It was a pious gift, not a property quarrel. As Justiciar, Richard gave up &mdash; &ldquo;quit-claimed&rdquo; &mdash; his right to appoint the priest (the <em>advowson</em>) of the church of Kellistown, written in the deed as <em>Kenlesten in Fotherid</em> (in Co. Carlow), and granted it to the Augustinian Priory of Kells in Co. Kilkenny. He made the gift &ldquo;for his soul and the souls of his ancestors and heirs, and especially for the soul of John son of Geoffrey, his uncle&rdquo; &mdash; the customary medieval bargain by which a benefactor hands property to a religious house so that its canons will pray for his family in perpetuity. It is precisely that dedication clause, naming John Fitz Geoffrey as his <em>avunculus</em> (mother&rsquo;s brother), that makes an otherwise routine grant the cornerstone of the family&rsquo;s Irish kinship. (Calendar of Ormond Deeds, no.&nbsp;63; the Latin <em>avunculus</em> reported by G. H. Orpen, <em>Ireland under the Normans</em>, vol. 3, p. 232.)</p>
-
-    <h3>A family of Crown officers: the Waterford shrievalty</h3>
-    <p>Sir Richard was not the only Rockett in Irish royal service. William de la Rochelle was Sheriff of County Waterford in 1262&ndash;63, and a mesne lord in Munster with interests in Co. Cork. He died owing money to the Crown, and his descendants spent years petitioning for the restitution of lands seized for those debts. Remarkably, the office stayed in the family: a later Richard de la Rokelle was Sheriff of County Waterford again in 1343 &mdash; an eighty-year, two-generation association with the Waterford shrievalty, in the very county that would become the family&rsquo;s direct-line home.</p>
-
-    <h3 id="ketyng">The Ketyng land fight</h3>
-    <p>The most revealing of all the Irish records is not a tragedy but a fight over land &mdash; a Rockett family fight to stop their patrimony being taken over by a man who had married into the family. It is worth setting out carefully, because it is easy to tell back-to-front.</p>
-
-    <p>The lands at the heart of it were Rockett property, and they were not trivial. The estate was <strong>Fydoun</strong> (Fiddown, in the barony of Iverk, Co. Kilkenny) together with <strong>Adlongport</strong> (also spelled Adlangport) &mdash; an extensive riverside manor on the Suir &ldquo;in the direction of Clonmel&rdquo;, almost certainly the old riverine <strong>Woodstown</strong>, the Viking <em>longphort</em> site west of Waterford city, and <em>not</em> the coastal Woodstown beach near Dunmore East with which it has sometimes been confused. These lands reach back to a charter of <strong>King John in 1199</strong> granting Adlongport to Elias fitz Norman &mdash; a full vill with its woods, meadows, moors, marshes, mills and fisheries, and its own court and gallows. They had come into Rockett hands by 1289, when they were held of the Crown by John fitz Robert de la Rokele, a tenant-in-chief. When he died, his sister and heir, <strong>Margery de la Rokele</strong>, carried the inheritance &mdash; and Margery had married a Tipperary man, <strong>James Ketyng</strong>.</p>
-
-    <div class="notice">
-      <strong>A note on the location.</strong> There are several townlands called Woodstown in Co. Waterford. The 1199 charter places Adlongport on the River Suir &ldquo;towards Clonmel&rdquo; &mdash; i.e. the riverine Woodstown (Killoteran parish, Middlethird barony), the famous Viking ship-camp west of the city. A later editorial index identified the 1289 Rockett vill instead with the <em>coastal</em> Woodstown strand (Kilmacomb parish, Gaultier barony, near Dunmore East), but that reading sits awkwardly with the charter&rsquo;s own &ldquo;towards Clonmel&rdquo; wording and with the fact that the Rocketts held Adlongport together with Fiddown, just up the Suir. We treat the riverine identification as the better one; the coastal label appears to be a later mistake.
-    </div>
-
-    <p>Margery died. Under a rule called the <em>courtesy of England</em>, a widower could keep his late wife&rsquo;s inheritance for the rest of his own life &mdash; but only if she had borne him a living child. So Ketyng moved to take over the Rockett lands for life, swearing that Margery had given birth to their daughter Roesia. If that were true, the Rockett patrimony would be locked out of the family for a generation. The Crown&rsquo;s escheator seized the lands instead, and the Rockett interest was to keep them from passing to Ketyng. What followed was six years of litigation across three counties:</p>
-
-    <ul>
-      <li>A jury at <strong>Clonmel in 1289</strong> swore that Margery had borne <em>no</em> child at all &mdash; neither before nor after the marriage. Ketyng&rsquo;s claim failed and the lands stayed out of his hands.</li>
-      <li>Ketyng went to Westminster, bought a fresh writ, and in <strong>September 1292</strong> had the matter re-tried in <strong>Connacht &mdash; &ldquo;where James has good friends&rdquo;</strong>, as the record drily notes. That jury found the child <em>had</em> been born.</li>
-      <li>A final inquisition at <strong>Cashel in February 1295</strong> heard witnesses say the daughter Roesia had been born at Dundeir in Connacht, sent to the house of Philip le Mareschal in Tipperary, and lived &ldquo;some fifteen days or more&rdquo; &mdash; long enough that men &ldquo;saw the child and heard her voice, crying.&rdquo;</li>
-    </ul>
-
-    <p>While the juries contradicted one another, a Crown servant named Hugh de Bruges quietly petitioned for the disputed lands as a reward for good service, and Adlangport and Fydoun were granted to him at the extent. The Rocketts did not let go. A generation later, in the Iverk extent of <strong>1314</strong>, we still find a Rockett &mdash; <strong>John de la Rokell</strong> &mdash; holding Fiddown &ldquo;by suit of court at Ballybramoth&rdquo;, with James de Keting recorded only as holding it &ldquo;by the law of England&rdquo;: that is, clinging to the life-interest the curtesy claim was built on. The fee was the Rockett&rsquo;s; the Ketyng claim was the encumbrance on it. The family had kept the land in the family.</p>
-
-    <div class="notice">
-      <strong>Why the old telling is misleading.</strong> It is tempting to read this as the sad story of a Rockett woman whose baby died young. But the documents are about <em>property</em>: these were Rockett lands, James Ketyng was the in-law trying to take them over for life, and the Rockett heirs &mdash; with the Crown &mdash; fought to keep them. A Rockett still held Fiddown a generation after Margery&rsquo;s death.
-    </div>
-
-    <h3>The end of the senior English-Irish line</h3>
-    <p>Sir Richard&rsquo;s descendant Philip de la Rokele held Irish manors &mdash; Aththrym (Trim) and Suthkyn &mdash; and died around 1300. His only heir was a daughter, Matilda (Maud), who married Maurice le Brun; his widow Joan first went to court and won back her one-third dower, worth some &pound;40 a year &mdash; then, on <strong>6 April 1302</strong>, she <strong>quit-claimed even that to Edmund le Botiller (Butler)</strong>, formally releasing the family&rsquo;s last claim on the Connacht lands for good (most likely settling for a one-off payment rather than holding distant Irish land as a widow in England). With no surviving Rockett son, the senior English-Irish line passed by the female side into the le Brun family. The Rocketts who remained in the Suir valley were the cadet and tenant branches &mdash; and it is from these, not the extinguished senior line, that the modern family descends.</p>
-
-    <h3>The Iverk free-tenants and the Butler squeeze, 1299&ndash;1374</h3>
-    <p>In 1299 a John de la Rokele appears as a pledge in a Tipperary court, standing surety alongside the Butler, le Poer and Ketyng families &mdash; the exact network around the Fiddown lands. By 1314 the Iverk barony of Co. Kilkenny held two Rockett free-tenants: John de la Rokell at Fiddown and William de la Rokell at Kelroske. Then the ground shifted under them. In <strong>March 1319</strong> the barony&rsquo;s own lord, Roger fitz Miles, formally surrendered &mdash; &ldquo;quit-claimed&rdquo; &mdash; the entire seignory of Overk to Edmund le Botiller, head of the Butler family, and <strong>John de la Rokele stands among the witnesses to the deed</strong>. This was not the Rocketts giving up their own land; it was their <em>overlord</em> being changed over their heads &mdash; from the local fitz Miles barons to the far more powerful Butlers. But the family did not prosper under the new lordship: within a year the Grant family held the lands the Rocketts had occupied, and the Rocketts began their slide from free tenants to dependants of the Butler earls.</p>
-
-    <p>The next sixty years trace a slow decline from landholders to claimants to retainers. In <strong>1352</strong>, two Rockett knights &mdash; Sir Richard de la Rochelle and William de la Rochelle &mdash; still sat on a Waterford jury. In <strong>1359</strong> a Richard de la Rokelle had to strike a deal with Richard Dodde to &ldquo;aid his claim&rdquo; to lands at Dounnmore: a man trying to recover land he no longer simply held. Then, on <strong>13 January 1374</strong>, William son of Richard de la Rokele, knight, made the final break: he <strong>quit-claimed his manor of Balybothy</strong> (near Clonmel) to James, 2nd Earl of Ormond, and acknowledged receiving <strong>forty marks of silver</strong> for it &mdash; the price of a surrender, not a stipend as it might first appear. With that, the senior <em>Iverk-and-Clonmel</em> branch sells up and drops out of the records. This is <em>not</em> the end of the Rocketts in Ireland &mdash; the family&rsquo;s Waterford seat at <a href="#castle">Rocketts Castle</a> carried the name on into the seventeenth century &mdash; but it is the last manor we can document for <em>this</em> senior medieval branch before the two-century gap that follows. In three generations it had gone from free tenants of Iverk, to claimants, to a knight cashing out his final manor.</p>
-
-    <h3>Mayors of Waterford</h3>
-    <p>As the rural landholding slipped away, the family&rsquo;s strength moved into the city. <strong>John Rocket was Mayor of Waterford in 1393</strong>, and is recorded again in 1412. The Rocketts had become a civic and mercantile family of Waterford City &mdash; a pattern that would hold for the next two centuries.</p>
-
-    <h3>The missing link, c.1374&ndash;1520</h3>
-    <p>It is between the late fourteenth century and the early sixteenth that the thread is hardest to follow &mdash; but this is a gap in the surviving <em>records</em>, not a disappearance of the family. Much of Ireland&rsquo;s medieval archive no longer exists: the 1922 destruction of the Public Record Office in the Four Courts fire consumed the chancery and exchequer rolls and most of the patent and close rolls &mdash; precisely the documents that would have named a Suir-valley landholder across these generations. The Rocketts themselves do not vanish: they are recorded <em>before</em> the gap (the 1300s Iverk free-tenants, the sheriffs of Waterford, the mayor of 1393) and in force <em>after</em> it, holding their seat at <a href="#castle">Rocketts Court / Rocketts Castle</a> and the parish of Mothel by the 1520s&ndash;60s. What the lost records have taken with them is the chain of named generations linking the two &mdash; the single most important target for future research (see <a href="#research">Research your own line</a>).</p>
-    <p>And the surviving late-medieval sources have been looked at: the <em>Calendar of Ormond Deeds</em> (to 1509) and the chancery rolls show fifteenth-century Rocketts at Iffa in Co. Tipperary (James Rokell, 1432&ndash;48) and on the Suir at Waterford (a weir held in 1458), and the printed <em>Statute Rolls of the Parliament of Ireland</em> for Edward IV (1462&ndash;94) contain no Rockett at all. But the continuity shows in the <em>land</em>: when the seat-record resumes &mdash; with <strong>Nicholas de la Rockell, lord of Rokellscourt, in 1524</strong> &mdash; he is dealing in <strong>Balybothy and Fiddown</strong>, the very estates the family held in 1374 and 1314. The same family was on the same ground; only the intervening names are lost. The one substantial record not yet searched is Tresham&rsquo;s 1828 calendar of the Irish patent and close rolls (1216&ndash;1509), which survives only in print &mdash; the best remaining hope of putting names to the fifteenth-century lords of the seat. (The Crown pardons known as <em>Fiants</em> cannot help: they begin only in 1521.)</p>
-
-    <h3>The Suir-valley patrician peak, 1593&ndash;1635</h3>
-    <p>The family re-emerges into the record in the reign of Elizabeth I and James I as a substantial Catholic gentry family of the Waterford&ndash;Tipperary borderland. The senior figures are Redmund Rockett of Blackfriars (d. 1595), his son Nicholas Rocket of Atlongport (livery 1602/3), Nicholas Rockell of Blackfriars (d. c.1630), and Jacobus Rockell of Tallow (d. 3 April 1620). Their inquisitions name a tight marriage alliance with the <strong>Power</strong> family &mdash; the great recusant patrons of Upperthird &mdash; including a Latina Power who appears under the alias &ldquo;Rockoll&rdquo;, and Maria Rockall, recorded as a widow in 1635. The Rocketts married &ldquo;up&rdquo; into the Power and Butler families; this is the strongest social signal in the whole early-modern record.</p>
-
-    <h3>Decline and the bridge to the modern family</h3>
-    <p>The patrician peak did not last. Through the 1620s and 1630s the family was caught in a cascade of Stuart-era mortgages: Rocketts Castle, near Kilmeaden, passed to the Strang and Woodlock families, and after the Cromwellian settlement no Rockett appears among the named landed proprietors of the Civil Survey or Down Survey at all. The 1659 &ldquo;census&rdquo; records six households under the spelling &ldquo;Rochwell&rdquo; in the barony of Upperthird, Co. Waterford &mdash; the family surviving below the level of the landowning record, as tenant farmers on Power and Strang ground.</p>
-
-    <p>From there the line crosses the Suir northward and re-emerges, around 1720, in the person of <strong>Petrus Rocket of Ballytarsna</strong>, in the parish of Mooncoin, Co. Kilkenny &mdash; a tenant on the Ponsonby (Bessborough) estate, documented in the Mooncoin and Carrigeen parish registers, and the patriarch from whom the well-documented modern Suir-valley family descends.</p>
-
-  </div>
-</section>
-
-<section id="castle">
-  <div class="wrap">
-    <h2>Rocketts Castle, Portlaw and the Curraghmore lands</h2>
-
-    <p>If the family has a single ancestral home in Ireland, it is here: a tower house called <strong>Rokelle&rsquo;s Court</strong>, later <strong>Rocketts Castle</strong>, at the townland of <strong>Gortardagh</strong> in the parish of <strong>Clonagam</strong> (Clonegam), Co. Waterford &mdash; on the Suir between Portlaw and Carrick-on-Suir. According to the Portlaw Heritage Centre, the de la Rokelle family held the lands of Gortardagh <em>from the thirteenth century</em>, and it is from this seat that the whole south-eastern surname community ultimately radiates.</p>
-
-    <h3>The tower house</h3>
-    <p>Local tradition remembers a knight, Richard de Rokella, as the builder of a five-storey circular tower, and dates the castle to <strong>1212</strong>. The standing structure is more likely a fifteenth- or sixteenth-century tower house raised on a thirteenth-century site &mdash; but the antiquity of the family&rsquo;s presence at Gortardagh is not in doubt. The round tower gave its name to the place: the townland is still &ldquo;Mayfield or Rocketscastle&rdquo; on the Ordnance Survey and in Griffith&rsquo;s Valuation.</p>
-
-    <h3>The seat in the records, 1520s&ndash;1600s</h3>
-    <p>Whatever the truth of the thirteenth-century tradition, the Rocketts are the <em>documented</em> sept of this place right through the sixteenth century: this was unmistakably the family&rsquo;s principal seat in the Suir valley. The records track it under a chain of spellings of the one name &mdash; <em>Rokelliscourte</em> (1523), <em>Rocketts Court</em> (1561), <em>Rocketts Pointe</em> (1594&ndash;95), <em>Rocketts Castle</em> (1596), and finally <em>Mayfield</em> &mdash; an unbroken thread of nearly four centuries on the ground. The earliest holder we can actually <em>name</em> is <strong>Nicholas de la Rockell, &ldquo;lord of Lamport and Rokellscourt,&rdquo; Co. Waterford, gentleman</strong>, recorded in the Calendar of Ormond Deeds in 1524 and again before the council at Waterford in 1541. Tellingly, the lands he was then dealing in &mdash; <strong>Balybothy</strong> and <strong>Fiddown</strong> &mdash; are the very estates of the medieval line: Balybothy, quit-claimed by the senior line in 1374, and Fiddown, the family&rsquo;s Iverk free-tenancy of 1314. The same family was still holding the same ground. The Crown pardons known as the Fiants of Elizabeth I then name a succession of holders: <strong>Redmund and James Rockett, brothers, &ldquo;of Rocketts Court&rdquo;</strong> in 1561; <strong>James Rockell of Mothel</strong> in 1566&ndash;67; <strong>Richard and James Rockett of Rocketts Court</strong>, and <strong>James fitz Piers Rockett of Mothel</strong>, in 1569; and <strong>Redmund Rockett of Rocketts Court</strong>, whose inquisition post mortem was taken on his death in 1593&ndash;94. Far from a blank, the sixteenth century is precisely where the Rocketts of Rocketts Castle are best attested &mdash; a settled gentry sept holding the seat and the surrounding parish of Mothel.</p>
-    <p class="src">Calendar of Ormond Deeds (ed. Curtis), vol. IV (1509&ndash;47), deeds 92, 94, 96; Calendar of Fiants of Elizabeth I, nos. 331, 936&ndash;37, 1303&ndash;04; Inquisitions Post Mortem of Co. Waterford (RIA OS EI/76); Power, <em>Place-Names of Decies</em> (1907).</p>
-
-    <h3>Curraghmore and the Power connection</h3>
-    <p>Clonagam parish is the parish of <strong>Curraghmore</strong>, the great seat of the Power (de la Poer) family &mdash; later the Beresfords, Marquesses of Waterford &mdash; and the largest demesne in the county. The Rocketts of Rocketts Castle were neighbours, tenants and marriage-allies of the Powers. The cleanest surviving record of their gentry standing is the funeral entry of <strong>James Rockell, who died in 1619 having married Katherine Power</strong>: a match into the dominant family of the district, and the last clear notice of the Rocketts as gentry before the storms of the seventeenth century.</p>
-
-    <h3>The Sherlock marriage and the slide into debt</h3>
-    <p>The last of the line to hold the castle in the old way is remembered as <strong>John Rockett, &ldquo;the Last Heir&rdquo;</strong>, who married <strong>Mary Sherlock</strong> &mdash; tying the Rocketts to the foremost Old-English merchant-gentry family of Waterford. But the family fell into debt, and in the early 1600s the estate was mortgaged to two Waterford merchant houses, <strong>Woodlock and Strang</strong>. When they foreclosed, Gortardagh was split between them as &ldquo;Gortardagh Woodlock&rdquo; and &ldquo;Gortardagh Strang.&rdquo;</p>
-
-    <h3>Cromwell, Sir Algernon May, and Mayfield</h3>
-    <p>The Confederate wars and the Cromwellian conquest of the 1650s swept away Woodlock and Strang too &mdash; both, like the Rocketts, Catholic Old-English. Under the Acts of Settlement and Explanation, the Strang portion was granted in <strong>1666 to Sir Algernon May</strong>, who renamed it <strong>Mayfield</strong>. The May family sold Mayfield to the Rev. John Thomas <strong>Medlycott</strong> in 1795; the Medlycotts still held &ldquo;Rockett Castle&rdquo; in 1840 (Freeman&rsquo;s Journal) and 1858 (Leinster Express). The old tower burned in the 1840s, and a new Mayfield house was built nearby about 1863.</p>
-
-    <p>By later accounts of the lands lost in the Stuart mortgages and the Cromwellian confiscations, the Rockett estate at Gortardagh had run to something on the order of <strong>1,200 acres</strong> &mdash; a substantial demesne, consistent with the family&rsquo;s standing as gentry of Clonagam before its fall. The medieval charters record the family&rsquo;s <em>standing</em> rather than an acreage; this later figure is the best surviving measure of the estate&rsquo;s scale.</p>
-
-    <div class="notice green">
-      <strong>The family never forgot.</strong> A letter written in 1958 by Edward J. Rockett of Sharon, Massachusetts &mdash; a descendant of the same Mothel / Old Grange line as this project&rsquo;s direct family &mdash; still carried the memory that the lands had been &ldquo;taken from them in the dim past by the Mayfields or Medlycotts.&rdquo; Three hundred years after the dispossession, the loss of Rocketts Castle was still part of the family&rsquo;s oral tradition on the far side of the Atlantic.
-    </div>
-
-    <h3>The Rocketts who stayed</h3>
-    <p>The Catholic Rocketts were the dispossessed party in the 1650s, not beneficiaries of the settlement, and they were not transplanted to Connacht. They simply dropped from gentry to tenant-farmer status and <em>stayed in the same parishes</em>. By Griffith&rsquo;s Valuation in the 1850s &mdash; two centuries after losing the castle &mdash; Rocketts were once again farming the very townland of their lost seat: <strong>Thomas, John, William and James Rockett all held land at &ldquo;Mayfield or Rocketscastle&rdquo;</strong>, with more Rockett households scattered through Clonagam parish at Coolroe, Clashganny, Killowen and Knockane. They had lost the castle but never left its shadow.</p>
-
-    <h3>One surname, many lines</h3>
-    <p>It is worth being clear that <strong>Petrus Rocket of Ballytarsna is the patriarch of <em>one</em> Rockett line &mdash; the one this project&rsquo;s family descends from &mdash; not of the surname as a whole.</strong> The Rockett name is a whole community spread across both banks of the lower Suir: substantial clusters at Portlaw, Carrick-on-Suir, Waterford City, Tramore, Dunhill, Kilmacthomas, Clonea-Rathgormack, Drumcannon and Mothel in Co. Waterford, and Mooncoin, Carrigeen and Ballyneale across the river in Kilkenny and Tipperary. The working hypothesis &mdash; supported by the tight geography and by the family&rsquo;s own tradition &mdash; is that these lines all descend from a common sixteenth- or seventeenth-century ancestor at or near Rocketts Castle, with Petrus&rsquo;s Mooncoin branch one tenant-cadet among many.</p>
-
-    <p class="src" style="margin-top:1.2em">Sources: Portlaw Heritage Centre, &ldquo;Rocketts Castle&rdquo;; Landed Estates Database (NUI Galway), &ldquo;Mayfield / Rockett&rsquo;s Castle&rdquo;; Griffith&rsquo;s Valuation, Clonagam parish, Co. Waterford; the 1619 James Rockell funeral entry (Genealogical Office / NLI); Freeman&rsquo;s Journal (1840) and Leinster Express (1858); and the 1958 Edward J. Rockett letter preserved in this project&rsquo;s research files.</p>
-
-  </div>
-</section>
-
-<section id="bordeaux">
-  <div class="wrap">
-    <h2>The Bordeaux branch</h2>
-
-    <p>One of the most surprising findings of the recent research is that the family also had a Bordeaux branch. In 1266 the constable of the castle of Bordeaux, Adam de Norffolk, issued letters patent confirming the sale of a house with quay on the &ldquo;Rue de Rokella&rdquo; in Bordeaux. The seller was Peter Martini de Rokella, whose father, also named Peter Martini de Rokella, was already deceased. The buyer was a Bordeaux citizen named Peter Burd. The house was held of the king of Aquitaine for one penny annual census and one penny relief at every change of lordship, payable at the feast of St Severin in the king&rsquo;s chapel at Bordeaux.</p>
-
-    <p>So by 1266 the family had been in Bordeaux long enough for a street to bear their name. By the early fourteenth century, two of them &mdash; Rusteyn and Amaneus de la Rokele &mdash; came up from Gascony to fight in Edward I&rsquo;s Scottish wars.</p>
-
-    <p>The R&ocirc;les Gascons (the chancery records of English-held Aquitaine), edited by Francisque Michel in 1885, also list a Gascon town named <em>Rokella</em>, alongside Bordeaux and Saint-Macaire and Sainte-Bazeille and Langon, in a 1240s royal letter. The Bordeaux Peter Martini family is most likely a local Gascon family of Bordelais merchants who took their byname from that local Gascon &ldquo;rocky place&rdquo;, independently of the English Cluster B.</p>
-
-    <p>It is a striking coincidence: in the same century, three different rocky places in Europe &mdash; one in Kent (Ruxley), one in Aquitaine (the Gascon Rokella) and an unidentified pre-Conquest seat in Normandy &mdash; each gave its name to a different family with the same byname pattern. Heraldic evidence (different shields and tinctures) shows that the medieval heralds treated them as distinct families, not branches of one.</p>
-
-  </div>
-</section>
-
-<section id="crusades">
-  <div class="wrap">
-    <h2>Crusades and the military orders</h2>
-
-    <p>Three Rockett family members are documented at moments of the medieval crusading and military-religious tradition.</p>
-
-    <p><strong>Sir John de Rokesle</strong>, of the Kent line, is named by Hasted&rsquo;s eighteenth-century <em>History of Kent</em> as having fought at the siege of Acre in 1191 alongside King Richard I. Hasted&rsquo;s source was Philipott&rsquo;s 1659 <em>Villare Cantianum</em> and Strype&rsquo;s edition of Stow. The primary medieval witness is not currently in the digitised record, but the antiquarian tradition is too strong to dismiss outright.</p>
-
-    <p><strong>Sir Richard de la Rokele</strong>, the Justiciar, took the cross at the parliament of Northampton on 24 June 1268, alongside the Lord Edward (later Edward I) and many other senior magnates. He is named on the surviving roster of Edward&rsquo;s expedition to the Holy Land in 1270&ndash;72. His son William remained in Dublin during the crusade as attorney for the family&rsquo;s Irish affairs.</p>
-
-    <p><strong>Walter de Rokele</strong>, who was a sworn Templar in 1308, transferred to the Hospitaller Order after the suppression and drew a Hospitaller pension still recorded in 1338. A second Templar Rokele &mdash; William &mdash; is named by Adams (2013) from the underlying inquisition deposition corpus.</p>
-
-    <p>The Rokeles&rsquo; broader kin-network &mdash; the Mandeville earls of Essex, the Beauchamps, the Bigods, the Bohuns, and the Despensers &mdash; was densely involved in the Third Crusade, the Fifth Crusade, and Louis IX&rsquo;s expeditions to the Holy Land and Tunis. The pattern is entirely consistent with a family operating inside the magnate-crusading milieu of the long thirteenth century.</p>
-
-  </div>
-</section>
-
-<section id="places">
-  <div class="wrap">
-    <h2>Where the family lived</h2>
-
-    <p>The medieval Rockett family is documented in seventeen English counties, in three Irish counties, in one Welsh river-valley, in Normandy, and in Aquitaine. The picture below is by the major branches.</p>
-
-    <div class="grid">
-      <div class="card feature"><h3>Essex (the senior English seat)</h3><p>South Ockendon (&ldquo;Wokyndon Rokele&rdquo;), Willingale Doe, Tilty Abbey area, Amberden, Wendon Loutes, Arksdon, Wikepet, Christeshall, Coggeshall Rockells, Witham, Colchester, Aldham, Easthorpe, Hadleigh Castle, Reylegh, Saffron Walden.</p></div>
-      <div class="card"><h3>Norfolk</h3><p>Colkirke, Gatele, Apulton (Flitcham-cum-Appleton), Oulton, Walton, Colney, Tibenham, Aslacton, Wykemere, Wychlingham, Withlingham, Berningham, Baconsthorp, Stanefeud, Smaleberg, Trowse (&ldquo;Rokele&rsquo;s manor&rdquo;), Shimpling, Newton Flotman, Saham-Tony, Ryngeshall, Rockland Tofts.</p></div>
-      <div class="card"><h3>Kent (the Cluster K seat)</h3><p>Ruxley (Rokesle), North Cray, Sandling (&ldquo;Sentlyng&rdquo;), Otford, St Mary Cray, Lullingstone, Beckenham (royal favour), Ospringe (3 fees), Shelve, Terlingham, Westwode, Pottebery in Estwelle, Setene (greyhound serjeanty for Gascony).</p></div>
-      <div class="card"><h3>Buckinghamshire</h3><p>Wotton Underwood (the &ldquo;Eustace de la Rokele&rdquo; seat of Langland&rsquo;s grandfather), Astwood (the contested fee), Bourton, Newport Pagnell (vicarage), Tyngewyk, Bernewode forest.</p></div>
-      <div class="card"><h3>Wiltshire</h3><p>Steeple Lavington (the Justiciar&rsquo;s Wiltshire seat, recorded in the R&ocirc;les Gascons as &ldquo;Stepelinmontone&rdquo;).</p></div>
-      <div class="card"><h3>Berkshire</h3><p>Fridlesham (Marteleston), Erlegh, Cookham, Bray, Benefield, Sonning Hill (Queen Philippa&rsquo;s bailiwick).</p></div>
-      <div class="card"><h3>Other English counties</h3><p>Dorset (1130 Humfrid), Derbyshire (Ockbrook), Hampshire (Byntteworth, Houghton), Lincolnshire (Boston), Suffolk (Occold, Benningham, Redgrave), Sussex (Rokelaund manor), Yorkshire (Holland; Tickhill honour Tyreswelle), Nottinghamshire (Tyreswelle), Oxfordshire (Bruern Abbey, Sandford), London (multiple parishes, including All Hallows the Great).</p></div>
-      <div class="card"><h3>Wales</h3><p>The fishery and weir of la Rokele near Caerleon on the Usk &mdash; toponym only, no person attested.</p></div>
-      <div class="card feature"><h3>Ireland</h3><p>Dublin (Justiciar&rsquo;s court), Connacht (Justiciar&rsquo;s 1265&ndash;72 Irish lands; Dundeir), Co. Tipperary (Margery 1289, Athassel, Clonmel), Co. Waterford (sheriff under Hen III; <strong>Rocketts Castle at Gortardagh, Clonagam parish, by Curraghmore and Portlaw</strong>; Adlongport, a Suir-valley landing (likely the riverine Woodstown), Atlongport, Tallow, Blackfriars; later Carrick-on-Suir, Tramore, Dunhill, Kilmacthomas, Clonea-Rathgormack, Drumcannon, Mothel), Co. Kilkenny (Iverk barony &mdash; Fiddown, Kelroske, Dunmore; later Mooncoin, Carrigeen, Ballytarsna).</p></div>
-      <div class="card"><h3>Normandy</h3><p>Stephen de Rokele 1316 acted as attorney to deliver seisin in Normandy for Isabella Bardolf.</p></div>
-      <div class="card feature"><h3>Gascony (Aquitaine)</h3><p>Bordeaux (Rue de Rokella, 1266, Peter Martini family). Sir Richard&rsquo;s Aquitanian Treasurer and Seneschal career, dated at Bordeaux 2 September c.1242&ndash;57. The town of Rokella itself, named in the 1240s royal letter alongside Bordeaux, Saint-Macaire, Langon, Sainte-Bazeille and Cadrouet.</p></div>
-      <div class="card"><h3>Scotland</h3><p>Rusteyn and Amaneus de la Rokele 1303&ndash;04, Gascon contingent in Edward I&rsquo;s Scottish war.</p></div>
-    </div>
-
-  </div>
-</section>
-
-<section id="timeline">
-  <div class="wrap">
-    <h2>A 700-year timeline</h2>
-
-    <p>The most important documented events in the family&rsquo;s recorded history. Every entry below is from a primary source.</p>
-
-    <div class="timeline">
-
-      <div class="tlitem">
-        <h4><span class="yr">1066</span> Hastings</h4>
-        <p>The Battle Abbey Roll (Cleveland 1889) lists &ldquo;Rokell&rdquo; among the Norman knights at Hastings. The Roll is a sixteenth-century antiquarian compilation, not a primary record; the entry is preserved tradition rather than direct attestation.</p>
-        <p class="src">Battle Abbey Roll, vol. I lines 2728 and 3257, ed. Catherine Duchess of Cleveland, 1889.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1086</span> Domesday</h4>
-        <p><em>Domesday Book</em> was William the Conqueror&rsquo;s great survey of England, taken in 1086 &mdash; so an entry in it means the family was already holding land in England within twenty years of the Norman Conquest. It records Malgerius holding the manor of Rochelei (modern Ruxley) in Kent under Bishop Odo of Bayeux, the Conqueror&rsquo;s half-brother; he took his surname &ldquo;de Rokesle&rdquo; from the place. This is the earliest direct record of the surname in England.</p>
-        <p class="src">Domesday Book, Kent fol. 14a, cited by Hasted, <em>History of Kent</em> (1797), vol. II.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">c.1100&ndash;1135</span> Godefrid de la Rachele</h4>
-        <p>A thirteenth-century royal-court roll (a family pedigree entered as evidence in a later lawsuit) records Godefrid as holding land &mdash; &ldquo;seised&rdquo; &mdash; in the reign of Henry I. He is the earliest known ancestor of the senior English line that runs, through five generations, down to Sir Richard the Justiciar.</p>
-        <p class="src">CRR No. 79 m. 24, 5 Hen III; Wrottesley, <em>Pedigrees from the Plea Rolls</em> (1905), p. 261.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1130</span> Walden Abbey foundation</h4>
-        <p>Humfrid de Rochella witnesses Earl Geoffrey de Mandeville I&rsquo;s foundation charter for Walden Abbey in Essex &mdash; and to witness a great magnate&rsquo;s charter you had to be one of his trusted men, so this places the family inside the household of the most powerful baron in eastern England. Humfrid also appears in the royal accounts (the Pipe Roll) of 31 Henry I, holding land in Dorset.</p>
-        <p class="src">Monasticon Anglicanum, vol. I, p. 460; Battle Abbey Roll vol. III, p. 75.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1166</span> Carta of Geoffrey de Mandeville II</h4>
-        <p>In 1166 Henry II ordered every baron to send in a written return (a <em>carta</em>) listing the knights who held land from him &mdash; the survey known as the <em>Cartae Baronum</em>. The Earl of Essex&rsquo;s return names William de Rochel holding three-quarters of a &ldquo;knight&rsquo;s fee&rdquo; (an estate large enough to owe the service of one armed knight), on the same parchment as William de Eu (four fees) and Hugo de Eu (one). The Rokeles were by now established knightly tenants of the Mandeville earls.</p>
-        <p class="src">Red Book of the Exchequer, ed. Hall (1896), vol. I, pp. 345&ndash;47.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">c.1170</span> Marriage into the Fitz Peter / Clare web</h4>
-        <p>The family marries into the kindred of Geoffrey Fitz Peter, Justiciar of England. Genealogists reconstruct a William de la Rokele marrying a daughter of Geoffrey (by Aveline de Clare) around this date &mdash; but the daughter is unnamed, and the &ldquo;Joane fitzPiers&rdquo; given for her is a modern conjecture. The kinship itself is real: it is proved a century later, when Sir Richard calls John Fitz Geoffrey his uncle (1264).</p>
-        <p class="src">Adams (2013), fn. 92; Round (1903), <em>Transactions of the Essex Archaeological Society</em>, n.s. 8.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1175</span> William de Rokella on the Royal Payroll</h4>
-        <p>William draws 40 shillings a year from the royal exchequer at Burcstal (Boarstall) &mdash; entered under <em>In Terris Datis</em>, the heading for sums the king paid to men of his own court. In plain terms, he was on Henry II&rsquo;s payroll: a sign the family had reached the royal household itself.</p>
-        <p class="src">Pipe Roll 21 Henry II (1175), Beds-Bucks shire farm.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1199</span> King John grants the manor of Adlongport</h4>
-        <p>By charter given at Bourg-le-Roi on 12 September 1199, King John grants <strong>Elias fitz Norman</strong> the whole vill of Adlongport &ldquo;which sits upon the water of the Suir in the direction of Clonmel&rdquo; &mdash; with its woods and open land, meadows and pastures, moors and marshes, waters, mills, ponds and fisheries, and the lordship rights of court and gallows (<em>sac and soc, infangthief and utfangthief</em>) &mdash; to hold of the king for the service of a fifth of a knight. This is an extensive, fully-privileged riverside manor, not a mere parcel. It is in Rockett hands by 1289 (the <a href="#ketyng">Ketyng lands</a>), and is most likely the riverine Woodstown, not the coastal beach of the same name.</p>
-        <p class="src">Charter Roll, 1 John, m. 11 (Hardy, <em>Rotuli Chartarum</em>, 1837); calendared in Sweetman, <em>Calendar of Documents relating to Ireland</em>, vol. I, no. 98.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">c.1212</span> Rocketts Castle (by tradition)</h4>
-        <p>Local tradition credits a knight, Richard de Rokella, with building the circular tower house at Gortardagh, Clonagam parish, Co. Waterford. The standing tower is probably later (15th&ndash;16th c.) on a 13th-century site, but the family&rsquo;s tenure at Gortardagh runs back to the thirteenth century. See <a href="#castle">Rocketts Castle</a>.</p>
-        <p class="src">Portlaw Heritage Centre; Landed Estates Database (NUI Galway).</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1234</span> Willingale Doe Assize Utrum</h4>
-        <p>An &ldquo;assize utrum&rdquo; was a lawsuit to settle whether a piece of land belonged to the Church or to a layman. In this one, a sworn jury at Willingale Doe in Essex names the parson as William &ldquo;Do&rdquo; or &ldquo;de Augo&rdquo; and treats that byname as the same as &ldquo;Rokele&rdquo; &mdash; the key evidence that the family also went by the name <em>de Eu</em> (&ldquo;of Eu&rdquo;, hardened in speech to &ldquo;Doe&rdquo;). It is how the village itself came to be called Willingale <em>Doe</em>.</p>
-        <p class="src">Bracton&rsquo;s Note Book, ed. Maitland (1887), vol. II entry 649.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">c.1242&ndash;57</span> Sir Richard&rsquo;s Aquitanian career</h4>
-        <p>Sir Richard de Rupella serves as Treasurer of Aquitaine, Seneschal of Aquitaine, and Bailli of Prince Edward (future Edward I). Crown letters dated at Bordeaux 2 September grant him legal exemption and a 20-pound annual pension.</p>
-        <p class="src">R&ocirc;les Gascons, ed. Francisque Michel (1885), vol. I and supplement.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1245&ndash;46</span> Crown grant in Ireland</h4>
-        <p>Pat 30 Henry III: Crown horse-purchase mandate for Sir Richard de Rupella in Ireland. Earliest documented Rokele in the Irish administrative records.</p>
-        <p class="src">Calendar of Documents Ireland, ed. Sweetman, vol. I, entry 2825.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1255</span> Treasurer of Ireland</h4>
-        <p>Richard de la Rochelle is in Dublin as deputy to his maternal uncle John FitzGeoffrey, Justiciar of Ireland, and serving as Treasurer of Ireland. Numerous mandates from the king and the Lord Edward pass through him as deputy.</p>
-        <p class="src">CDRI vol. II, Pat 39 Henry III (multiple entries).</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1258</span> First Butler land grant</h4>
-        <p>Theobald Walter Butler grants &ldquo;all Omany&rdquo; to Richard de la Rokele &mdash; the earliest direct Butler&ndash;Rockett land grant and the start of a three-century working relationship with the house of Ormond.</p>
-        <p class="src">Calendar of Ormond Deeds, ed. Curtis, vol. I, deed 124.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1261&ndash;65</span> Justiciar of Ireland</h4>
-        <p>Sir Richard de Rupella serves as Henry III&rsquo;s Justiciar of Ireland: the chief Crown officer in the lordship.</p>
-        <p class="src">Irish Patent Rolls; CDRI vol. II.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1262&ndash;63</span> William, Sheriff of Waterford</h4>
-        <p>William de la Rochelle is Sheriff of County Waterford and a mesne lord in Munster. He dies owing the Crown; his descendants petition for restitution of seized lands. A later Richard de la Rokelle is Sheriff of Waterford again in 1343.</p>
-        <p class="src">Sweetman, CDRI vol. II (Pipe Roll Hen III); NAI R.C. 8/22 p. 483.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1264</span> The avunculus kinship &amp; the baronial war</h4>
-        <p>A quit-claim at Kilkenny Castle names Sir Richard as the nephew (<em>avunculus</em> = mother&rsquo;s brother) of John FitzGeoffrey, Justiciar of Ireland &mdash; the bloodline by which the family entered Ireland, and the primary anchor for its earl-tier Irish kinship. In 1264&ndash;65 Richard is captured with Theobald Butler by Maurice FitzMaurice in the Geraldine&ndash;de Burgh war.</p>
-        <p class="src">Kilkenny Castle quit-claim (Ormond MSS); DIB, &ldquo;Richard de la Rochelle&rdquo;.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">c.1265&ndash;72</span> Essex-to-Ireland exchange</h4>
-        <p>Sir Richard exchanges his Essex manors of Willingale and Plesingo for Irish land granted by Prince Edward in person. The mechanism by which the Cluster B family centre of gravity moves from England to Ireland.</p>
-        <p class="src">British Library Harley Charter 45 D.7.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1266</span> Bordeaux: Rue de Rokella</h4>
-        <p>Adam de Norffolk, constable of Bordeaux castle, issues letters patent confirming the sale of a house with quay on the &ldquo;Rue de Rokella&rdquo; in Bordeaux by Peter Martini, son of Peter Martini de Rokella deceased.</p>
-        <p class="src">CPR Edward I vol. I, inspeximus 1272&ndash;81.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1268</span> Crusader vow at Northampton</h4>
-        <p>Sir Richard de la Rokele takes the cross at the Northampton parliament on 24 June 1268, alongside Lord Edward (the future Edward I), for the 1270&ndash;72 expedition to the Holy Land.</p>
-        <p class="src">Roll of the cross-takers, 24 June 1268; cited in Tyerman (1988).</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1270</span> The &ldquo;filio meo&rdquo; charter</h4>
-        <p>Sir Richard de Rupella, at Ballycolin in Ireland, gives the vill of Disert to St Mary&rsquo;s Abbey, Dublin, with his son William witnessing as &ldquo;Domino Willelmo de Rupella, <em>filio meo</em>&rdquo; &mdash; Latin for &ldquo;my son.&rdquo; That small phrase is what makes the deed valuable to genealogists: it states the father-and-son link in so many words, proving William was Sir Richard&rsquo;s son.</p>
-        <p class="src">Gilbert, <em>Chartularies of St Mary&rsquo;s Abbey Dublin</em>, vol. I, line 17350.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">7 Dec 1276</span> Death of Sir Richard</h4>
-        <p>Sir Richard de Rupella dies at South Ockendon, Essex. His son Philip succeeds him; Philip pays homage to the king in 1277.</p>
-        <p class="src">CIPM vol. II nos. 218&ndash;219; CFR vol. I.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1274&ndash;91</span> Gregory Mayor of London</h4>
-        <p>Gregory de Rokesle of the Kent line is Lord Mayor of London 1274&ndash;81 and 1284&ndash;85, and Keeper of the King&rsquo;s Exchange and Assay Master General of the Mint.</p>
-        <p class="src">Hasted, <em>History of Kent</em> (1797), vol. II; Letter-Books of London.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1284&ndash;86</span> CIPM Bucks</h4>
-        <p>When a landholder died, the Crown held an inquest &mdash; an <em>inquisition post mortem</em> &mdash; to record what lands he had held and who his heir was. These inquests show the family holding manors in four English counties at once: Peter and John de Rupella at Wootton Underwood (Bucks), Robert at Astwood, Richard at Ockbrook (Derbys) and Humphrey at Fridlesham (Berks) &mdash; a widely-landed gentry family.</p>
-        <p class="src">CIPM vol. I lines 5115, 6904, 8878, 18969.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1286</span> Maud born in Ireland</h4>
-        <p>Maud, daughter of Philip de la Rokele, was born in Ireland. We know this from her &ldquo;proof of age&rdquo; in 1300 &mdash; the jury inquiry held to confirm an heir had come of age before they were given their lands. The Kent jurors admitted they could not swear to her birth from their own knowledge, &ldquo;but by the relation of the country, for she was born in Ireland&rdquo; &mdash; neat confirmation that the family was by then living in Ireland.</p>
-        <p class="src">CIPM vol. III entry 619.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1289&ndash;95</span> The Ketyng land fight</h4>
-        <p>After Margery de la Rokele dies, her husband James Ketyng tries to keep the Rockett patrimony (Fiddown, Co. Kilkenny + Adlongport, a Suir-valley landing) for life by the &ldquo;courtesy of England&rdquo;, swearing she had borne him a living daughter. Three juries disagree: Clonmel (1289) says no child; Connacht (1292), &ldquo;where James has good friends&rdquo;, says yes; Cashel (1295) says the child Roesia lived fifteen days. A Rockett still holds Fiddown in 1314.</p>
-        <p class="src">CIPM vol. III no. 649 = TNA C 133/54/14 mm. 1&ndash;9; List &amp; Index Society vol. 320, entries 67&ndash;72.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">c.1300</span> The senior Irish line ends in an heiress</h4>
-        <p>Philip de la Rokele, holding the Irish manors of Aththrym (Trim) and Suthkyn, dies leaving only a daughter, Matilda, who marries Maurice le Brun. His widow Joan sues Edmund le Botiller (Butler) to recover her dower. The senior English-Irish line passes by the female side into the le Brun family.</p>
-        <p class="src">CDRI vol. IV, Coram Rege Edw I nos. 765&ndash;767; CPR Edw I (executors, 1302).</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">5 Oct 1295</span> Death of Philip</h4>
-        <p>Philip de la Rokele dies at Wokyndon (South Ockendon). His heir is his young daughter Maud, who later marries Maurice le Bruyn, carrying the manor into the Bruyn family. (Morant&rsquo;s old claim that Philip also had a daughter Isolda, and that Maud married &ldquo;Lord Grey,&rdquo; was shown by Adams to be mistaken: Maud was the sole heir.) The senior male line at South Ockendon ends.</p>
-        <p class="src">CIPM vol. III entry 258.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1303&ndash;04</span> Gascon knights in Scotland</h4>
-        <p>Two members of the family&rsquo;s Gascon (Bordeaux) branch, Rusteyn and Amaneus de la Rokele &mdash; recorded as men &ldquo;who came from Gascony&rdquo; &mdash; came north to fight in Edward I&rsquo;s wars in Scotland: a glimpse of how far the name had spread across the Plantagenet world.</p>
-        <p class="src">Calendar of Documents Ireland, vol. V, lines 74003&ndash;04, TNA C 67/13 m. 4.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1308</span> Templar suppression</h4>
-        <p>The Knights Templar &mdash; the great crusading military order &mdash; were suddenly suppressed across Christendom on the Pope&rsquo;s orders. In England two Templar brethren of the family, Walter de Rokele (of the preceptories of Templecombe and Sandford-on-Thames) and William de Rokele, were arrested and committed to the Tower of London; Walter afterwards transferred to the rival order of Knights Hospitaller.</p>
-        <p class="src">Nicholson (2011); Adams (2013).</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1314</span> Iverk free-tenants</h4>
-        <p>John de la Rokell at Fidon-in-Croc (Fiddown) and William de la Rokell at Kelroske appear in the Iverk extent of Co. Kilkenny. The south-east Ireland Suir-valley line is now firmly documented.</p>
-        <p class="src">Burtchaell (1893), JRSAI 5th ser. vol. III, p. 182 (= Cal. Carew MSS, Book of Howth, p. 367).</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1319</span> The Butler squeeze begins</h4>
-        <p>The barony&rsquo;s lord, Roger fitz Miles, quit-claims (surrenders) the whole seignory of Overk to Edmund le Botiller; John de la Rokele witnesses the deed. The Rocketts&rsquo; overlord thus becomes the Butlers, and within a year the Grant family holds the lands the Rocketts had occupied. The slow fall from free tenants to Butler clients has begun.</p>
-        <p class="src">Calendar of Ormond Deeds, ed. Curtis, vol. I, deed 539.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1321&ndash;48</span> John de la Rokele, royal justice</h4>
-        <p>John de la Rokele of Easthorpe, Essex, rose to be a <em>serjeant-at-law</em> &mdash; the senior rank of barrister, the pool from which the royal judges were chosen &mdash; and a royal justice. He appears in 190 of the surviving &ldquo;Year Books&rdquo; (the law reports of the day) across 27 years, which makes him the best-documented Rockett lawyer of the fourteenth century.</p>
-        <p class="src">Adams (2013), pp. 74&ndash;90; Year Books, ed. Seipp.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1352&ndash;62</span> William de la Rokele, parson and probable poet</h4>
-        <p>William de la Rokele, son of Eustace de la Rokele (Langland&rsquo;s father), serves as parson of Easthorpe in Essex 1352&ndash;53 and parson of Redgrave in Suffolk 1356&ndash;c.1362. Adams (2013) identifies him as William Langland, author of <em>Piers Plowman</em>.</p>
-        <p class="src">Adams (2013), pp. 75&ndash;76, 91, 106, 120&ndash;122; Papal Registers; Essex Feet of Fines; BL Harley Charter 55.E.4.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1343&ndash;74</span> From knights to clients</h4>
-        <p>The Irish family slides down the social scale. Richard de la Rokelle is Sheriff of Waterford in 1343; in 1352 two Rockett knights still sit on a Waterford jury; in 1359 a Richard de la Rokelle must bargain for help to &ldquo;aid his claim&rdquo; to lands at Dounnmore; and on 13 January 1374 William son of Richard de la Rokele, knight, quit-claims his manor of Balybothy (near Clonmel) to James, 2nd Earl of Ormond, for forty marks of silver &mdash; the last documented manor of this Iverk-and-Clonmel branch, which now drops out of the record. (The family&rsquo;s Waterford seat at Rocketts Castle carried the name on into the 1600s.)</p>
-        <p class="src">NAI R.C. 8/22; TNA C 143/307 no. 8 (1352); Calendar of Ormond Deeds, ed. Curtis, vol. II item 50 &amp; vol. III (Balybothy quit-claim, deed 351).</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1372 / 1422</span> The Wikepet Roberts</h4>
-        <p>Robert de Rokele, Essex landowner, holds Arksdon and three parts of a fee in Wikepet of Humphrey de Bohun, Earl of Hereford, in 1372. A Robert de Rokele dies in 1422 with a will filed at Walden Abbey.</p>
-        <p class="src">Morant (1768), <em>Essex</em>, vol. II; TNA PROB 11/2B.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1393</span> John Rocket Mayor of Waterford</h4>
-        <p>John Rocket is attested as Mayor of Waterford (and again in 1412). As the family&rsquo;s rural landholding slips away to the Butlers, its strength has moved into Waterford City, where the Rocketts become a civic and mercantile family.</p>
-        <p class="src">Waterford mayoral lists; Waterford Charter Roll.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1463</span> Geffrey Rokell at Aldham</h4>
-        <p>Geffrey Rokell, esquire, of Colchester, makes over (conveys) Aldham Hall and Hoggekyns farm to Robert Tey, esquire, and his wife Elizabeth &mdash; the last appearance of the family in this senior-gentry Essex setting. His coat of arms was recorded on a window or monument in Aldham church: <em>Gules, a fesse lozengy ermine, between three martlets argent</em> (see the <a href="heraldry.html">heraldry page</a>).</p>
-        <p class="src">Morant (1768), <em>Essex</em>, vol. II, lines 52961&ndash;65.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1524&ndash;96</span> The sept-seat at Rocketts Court</h4>
-        <p>By 1524 the seat has a named lord: <strong>Nicholas de la Rockell, lord of Lamport and Rokellscourt</strong>, recorded granting his lands in Balybothy and Fiddown to Piers Butler, Earl of Ormond &mdash; the very estates the medieval line held in 1374 and 1314. The Elizabethan Fiants and inquisitions then show the Rocketts firmly established as the sept of their Suir-valley seat, called in turn Rokellscourt (1524), Rocketts Court (1561), Rocketts Pointe (1594&ndash;95) and Rocketts Castle (1596). Later holders named include Redmund and James Rockett of Rocketts Court (1561), James Rockell of Mothel (1566&ndash;67), and Redmund Rockett (d. 1593&ndash;94).</p>
-        <p class="src">Calendar of Ormond Deeds vol. IV (1509&ndash;47), deeds 92, 94, 96; Calendar of Fiants of Elizabeth I, nos. 331, 936&ndash;37, 1303&ndash;04; Co. Waterford IPMs (RIA OS EI/76).</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1595&ndash;1635</span> The Suir-valley peak</h4>
-        <p>The family re-emerges as substantial Catholic gentry of the Waterford&ndash;Tipperary borderland: Redmund Rockett of Blackfriars (d. 1595), Nicholas Rocket of Atlongport (livery 1602/3), Nicholas Rockell of Blackfriars (d. c.1630), and Jacobus Rockell of Tallow (d. 3 April 1620). Their inquisitions record a marriage alliance with the Power family (a Latina Power appears under the alias &ldquo;Rockoll&rdquo;; Maria Rockall is a widow in 1635).</p>
-        <p class="src">VRTI (Irish chancery + IPM chain); Calendar of Patent Rolls of Ireland.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1619</span> James Rockell marries Katherine Power</h4>
-        <p>The funeral entry of James Rockell, who married Katherine Power of the Curraghmore family, is the last clear record of the Rocketts as gentry of Clonagam parish &mdash; the parish of <a href="#castle">Rocketts Castle</a>.</p>
-        <p class="src">Genealogical Office / NLI Office of Arms Funeral Entries.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">c.1600&ndash;66</span> The loss of Rocketts Castle</h4>
-        <p>Debt forces the family to mortgage the Gortardagh estate (Clonagam parish, by Portlaw) to the Waterford merchants Woodlock and Strang, who foreclose and split it. The Cromwellian settlement sweeps all of them away; in 1666 the Strang portion is granted to Sir Algernon May and renamed Mayfield. No Rockett appears among the named proprietors of the Civil and Down Surveys.</p>
-        <p class="src">Portlaw Heritage Centre; Landed Estates DB; Acts of Settlement &amp; Explanation 1666.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1659</span> &ldquo;Rochwell&rdquo;, six households</h4>
-        <p>Pender&rsquo;s &ldquo;census&rdquo; records six &ldquo;Rochwell&rdquo; households in the barony of Upperthird, Co. Waterford &mdash; the family surviving below the level of the landowning record, as tenant farmers in the parishes it had once held outright.</p>
-        <p class="src">Pender, Census of Ireland 1659, p. 344.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">c.1720</span> Petrus Rocket of Ballytarsna</h4>
-        <p>Petrus Rocket is documented in the Mooncoin and Carrigeen parish registers as patriarch of <em>one</em> of the Co. Kilkenny&ndash;Waterford Rockett families &mdash; the line this project descends from. He is one tenant-cadet among many lower-Suir Rockett households.</p>
-        <p class="src">NLI vtls635311 p. 43, vtls635313 p. 100.</p>
-      </div>
-
-      <div class="tlitem">
-        <h4><span class="yr">1850s</span> Back in the castle&rsquo;s shadow</h4>
-        <p>Two centuries after the dispossession, Griffith&rsquo;s Valuation finds Thomas, John, William and James Rockett farming the very townland of &ldquo;Mayfield or Rocketscastle&rdquo;, with more Rockett households across Clonagam parish at Coolroe, Clashganny, Killowen and Knockane. They had lost the castle but never left its shadow.</p>
-        <p class="src">Griffith&rsquo;s Valuation, Clonagam parish, Co. Waterford.</p>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-<section id="waterford">
-  <div class="wrap">
-    <h2>The Waterford line</h2>
-
-    <p>For Rocketts of south-east Ireland descent, the documented Waterford line runs roughly as follows. This section uses the most recent research; some links between generations remain working hypotheses rather than settled facts.</p>
-
-    <p>The earliest Waterford-county Rokele is the William de la Rokele who served as Sheriff of County Waterford under Henry III, attested by his son Richard&rsquo;s 1317&ndash;18 petition for the restitution of lands taken for William&rsquo;s Crown debts. He held office sometime in the 1250s to 1270s.</p>
-
-    <p>By the early fourteenth century, the family is on the Kilkenny side of the Suir, in the Iverk barony, with John de la Rokell at Fidon-in-Croc and William at Kelroske (1314). By the late fourteenth century, the family produces John Rocket, Mayor of Waterford (1393), and William Rokell, Sheriff of Cross-Tipperary (1377&ndash;83), on the Waterford / Tipperary border.</p>
-
-    <p>Between the late fourteenth century and the early sixteenth the documentary record for this line is sparse, and the bridge between the Iverk free-tenants of 1314 and the Tudor sept at Rocketts Castle has not been closed with named generations. But the family is firmly documented at its principal Suir-valley seat from the 1520s&ndash;60s (the Elizabethan Fiants name Rocketts at Rocketts Court and in Mothel), and from 1595 the senior patrician line is fully attested, with Redmund Rockett of Blackfriars (d. 1595), Nicholas Rocket of Atlongport (1602/3), Nicholas Rockell of Blackfriars (d. c.1630), and Jacobus Rockell of Tallow (d. 1620). These all appear in the Inquisitions Post Mortem of Co. Waterford under James I and Charles I, before the family is squeezed out of the patent-class records by Stuart-era mortgages and the Cromwellian settlement.</p>
-
-    <p>From the seventeenth century the family&rsquo;s ancestral seat in this county is <a href="#castle">Rocketts Castle at Gortardagh</a>, in Clonagam parish by Curraghmore and Portlaw &mdash; lost to debt, foreclosure and the Cromwellian settlement, but never forgotten. The Rocketts who survived stayed in the same parishes as tenant farmers, and by Griffith&rsquo;s Valuation in the 1850s were once again working the townland of their lost castle.</p>
-
-    <p>It is important to keep one distinction clear. <strong>The Rockett surname in the south-east is a whole community, not a single line.</strong> There are substantial, long-established Rockett families at Portlaw, Carrick-on-Suir, Waterford City, Tramore, Dunhill, Kilmacthomas, Clonea-Rathgormack, Drumcannon and Mothel, as well as across the Suir at Mooncoin, Carrigeen and Ballyneale. The line this project documents most fully &mdash; and the one its own family descends from &mdash; centres on <strong>Petrus Rocket of Ballytarsna, Mooncoin parish, Co. Kilkenny</strong>, recorded in the NLI parish registers from the 1720s. By the early nineteenth century that branch is a Mooncoin&ndash;Carrigeen Catholic farming family, with Edmund &ldquo;C&rdquo; crossing the Suir in 1856 to settle at Old Grange, Mothel, and many of his children emigrating to America. But Petrus is the patriarch of <em>that</em> line, not of the surname &mdash; the other Waterford Rockett families are cousins, almost certainly sharing a common ancestor at or near Rocketts Castle, rather than descendants of Petrus.</p>
-
-  </div>
-</section>
-
-<section id="research">
-  <div class="wrap">
-    <h2>Research your own line</h2>
-
-    <p>If you bear the Rockett name and want to trace your own ancestors, here is how to make the most of the medieval picture above.</p>
-
-    <h3>Step one: find your immediate ancestors first</h3>
-    <p>The medieval picture is interesting but it is centuries removed from any living person. Before you spend time trying to trace yourself back to Sir Richard the Justiciar, document your line as far back as the parish registers reach. For Irish Catholic lines this is usually the 1760s to 1830s. For English and American Rocketts it varies widely. The standard sources are the parish baptism, marriage and burial records, civil registration (which begins in 1837 in England and Wales, 1864 in Ireland), and census returns.</p>
-
-    <h3>Step two: identify which branch you are likely from</h3>
-    <p>The medieval Rokeles had at least four large branches, and they did not all give rise to modern Rockett families in equal numbers. The Essex / Cluster B branch, including the Irish Rokele who ended in the Suir valley, is the one that produced the largest documented modern descent. The Kent / Cluster K branch (the Mayor of London line) appears to die out in the male line by the late fourteenth century. The Norfolk branches appear to have merged into local Ingaldesthorp and other families. The Bordeaux branch is a separate Gascon family altogether.</p>
-
-    <p>If your family origin is in south-east Ireland (Waterford, Kilkenny, Tipperary, south Wexford), you are almost certainly from the Cluster B Irish branch &mdash; the descendants of Sir Richard the Justiciar.</p>
-
-    <p>If your family origin is in Essex, Norfolk, or East Anglia generally, you may be from a separate English Cluster B cadet.</p>
-
-    <p>If your family origin is in Kent, Sussex, or London, the Cluster K line may be relevant, but a fourteenth-century cadet bridge has not been documented.</p>
-
-    <h3>Step three: try Y-DNA</h3>
-    <p>The most powerful tool for surname-line questions is Y-DNA testing through one of the major DNA-testing companies. Y-DNA follows the father-to-son line and can show whether you share a recent or deep common male-line ancestor with another tested Rockett. A cluster of Rockett testers all sharing a Y-DNA haplogroup and a tight set of marker values would be strong evidence of a single male-line patriarch within the last few centuries; a wide spread of haplogroups would suggest, instead, several unrelated families adopting the same surname.</p>
-
-    <p>Y-DNA cannot, by itself, prove a Norman origin. Its value lies in comparison with other documented Rockett lines.</p>
-
-    <h3>Step four: the gaps that still need closing</h3>
-    <p>These are the open questions that the current research has not been able to settle. If you have access to any of these, you are likely to find new evidence.</p>
-    <ul>
-      <li><strong>Battle Abbey Roll variants.</strong> The Holinshed (1577), Stow (1605), Leland (16C) and Auchinleck (14C) variants of the Battle Abbey Roll may name the family in different forms. Most are available in a few specialist research libraries.</li>
-      <li><strong>The specific Norman seat.</strong> The candidates &mdash; La Rochelle-Barneville (Manche), La Rochelle-Louviers (Eure), and the comt&eacute; of Eu itself &mdash; could be tested against Marie Fauroux&rsquo;s 1961 edition of the Norman ducal acts, Elisabeth van Houts&rsquo;s 1992&ndash;95 edition of William of Jumi&egrave;ges, and Katharine Keats-Rohan&rsquo;s prosopographical works.</li>
-      <li><strong>The 1450&ndash;1593 gap in the Irish line.</strong> Closing the chain from the 1314 Iverk free-tenants to the 1595 Suir-valley Rocketts requires Lodge MS 18, the National Archives of Ireland RC 8 series of memoranda rolls, and the Bessborough estate records.</li>
-      <li><strong>The Adams Langland identification.</strong> Robert Adams&rsquo;s 2013 identification of William de la Rokele of Easthorpe as William Langland the poet is the largest single open question in fourteenth-century English literary studies. It can be tested against the Beauchamp household accounts and the dialect-data of the early <em>Piers Plowman</em> manuscripts.</li>
-    </ul>
-
-    <h3>Step five: read the long version</h3>
-    <p>For anyone serious about the medieval Rokele family, the essential reading is Robert Adams, <em>Langland and the Rokele Family: The Gentry Background to &ldquo;Piers Plowman&rdquo;</em>, published by Four Courts Press in 2013. It is the only modern scholarly monograph on the family and its arguments are very largely the ones followed here.</p>
-
-    <h3>Step six: contact your local archives</h3>
-    <p>The Essex Record Office in Chelmsford, the Kent History and Library Centre in Maidstone, the Norfolk Record Office in Norwich, and the National Archives of Ireland in Bishop Street, Dublin, all hold relevant medieval and early-modern material that has not been digitised. Visiting in person is sometimes the only way to access it.</p>
-
-  </div>
-</section>
-
-<section id="acknowledgements">
-  <div class="wrap">
-    <h2>Acknowledgements and sources</h2>
-
-    <p>This account is built from the medieval administrative records of the English Crown, supplemented by the surviving antiquarian compilations of the eighteenth and nineteenth centuries, and by modern scholarship. The primary corpora are: <em>Domesday Book</em>, the <em>Pipe Rolls</em>, the <em>Red Book of the Exchequer</em> (Hall 1896), the <em>Cartae Baronum</em>, the <em>Calendar of Charter Rolls</em>, the <em>Calendar of Patent Rolls</em>, the <em>Calendar of Close Rolls</em>, the <em>Calendar of Inquisitions Post Mortem</em>, the <em>Calendar of Inquisitions Miscellaneous</em>, the <em>Liber Feodorum</em> (Book of Fees), the <em>R&ocirc;les Gascons</em> (Michel 1885, B&eacute;mont 1896), the <em>Calendar of Documents Ireland</em> (Sweetman), <em>Bracton&rsquo;s Note Book</em> (Maitland 1887), and the <em>Chartularies of St Mary&rsquo;s Abbey Dublin</em> (Gilbert). For the Irish branch in particular: the <em>Calendar of Ormond Deeds</em> (ed. Edmund Curtis, Irish Manuscripts Commission), <em>Inquisitions and Extents of Medieval Ireland</em> (ed. Paul Dryburgh and Brendan Smith, List &amp; Index Society vol. 320, 2007 &mdash; which preserves the verbatim Ketyng&ndash;Rokele inquisitions), George Dames Burtchaell&rsquo;s 1893 study of the Barons of Overk in the <em>Journal of the Royal Society of Antiquaries of Ireland</em>, the Virtual Record Treasury of Ireland (VRTI), and Pender&rsquo;s <em>Census of Ireland 1659</em>.</p>
-
-    <p>The antiquarian sources are Edward Hasted, <em>The History and Topographical Survey of the County of Kent</em> (1797), Philip Morant, <em>The History and Antiquities of the County of Essex</em> (1768), Francis Blomefield, <em>An Essay towards a Topographical History of the County of Norfolk</em> (1805), Catherine Duchess of Cleveland, <em>The Battle Abbey Roll</em> (1889), and Patrick Power, <em>The Place-Names of Decies</em> (1907).</p>
-
-    <p>The modern scholarship that has been most useful is Robert Adams, <em>Langland and the Rokele Family</em> (Four Courts Press, 2013). On the d&rsquo;Eu / Rokele question, see also J. H. Round, &ldquo;The Church and Glebe of Willingale Doe&rdquo;, <em>Transactions of the Essex Archaeological Society</em>, new series, vol. 8 (1903).</p>
-
-    <p>The research database that underlies this page contains 225 documented medieval persons across the family. Of these, 155 are Cluster B (the Essex / Ireland senior line), 43 are Cluster K (the Kent / London line), 8 are Gascon, and 19 are otherwise affiliated. 40 are female; 21 are documented before 1200; 49 are documented in the fourteenth century.</p>
-
-  </div>
-</section>
-
-</main>
-
-<div class="footer">
-  <div class="wrap">
-    <p><strong>For Rocketts everywhere.</strong> This page is a public summary of the research as it stands in June 2026. Every numbered claim above is referenced to a primary source. If you spot an error, or you have access to a record we have not used, please do get in touch.</p>
-    <p>The full working project contains internal automation, review data, and active research notes, and is not published here. This public-site folder is what we share.</p>
-    <p>See also <a href="heraldry.html">Coats of arms</a>.</p>
-  </div>
-</div>
-
+    </section>
+
+    <section>
+      <h2>Open questions</h2>
+      <ul>
+        <li>Bridge the 1314 Iverk Rokell evidence to the 1590s-1630s Waterford Rockett/Rockell records with named generations.</li><li>Bridge Edward/Maria Rockall c.1635 to Petrus Rocket c.1720 Ballytarsna.</li><li>Resolve Athloypot/Atlongport at townland or sub-denomination level from original archival material.</li><li>Test the d&#x27;Eu/Brinson question only through targeted primary sources, not broad surname similarity alone.</li><li>Compare future Y-DNA results from documented male-line Rockett/Rocket/Rokell/Rockell/Rochwell testers to see whether the south-east Ireland lines share a paternal ancestor.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Research files</h2>
+      <p>The full working project contains internal automation, review data, local paths, and active research notes. For sharing, start with this public bundle rather than the internal dashboard.</p>
+      <ul>
+        <li><a href="data/medieval-timeline.json">Public timeline JSON</a></li>
+      </ul>
+    </section>
+
+    <section class="notice">
+      <strong>Privacy note:</strong> this microsite intentionally avoids internal review tooling, operational sync state, unpublished DNA details, and details for people who may still be alive. Publish only this public-site folder unless you have reviewed the full dashboard data separately.
+    </section>
+
+    <div class="footer">Generated 2026-06-16 19:33 UTC from curated public exports in the genealogy-researcher project.</div>
+  </main>
 </body>
 </html>
