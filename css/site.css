@@ -338,4 +338,20 @@ td .src { font-size: 0.82rem; color: var(--muted); display: block; margin-top: 4
   td { border-bottom: 0; padding: 6px 14px; }
   tr { border-bottom: 1px solid var(--line); padding: 10px 0; }
   td.year { font-weight: 700; }
+
+  /* Sticky nav: one compact swipeable row instead of wrapping to several rows */
+  .topnav .wrap {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 4px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .topnav .wrap::-webkit-scrollbar { display: none; }
+  .topnav a {
+    white-space: nowrap;
+    flex: 0 0 auto;
+    font-size: 0.82rem;
+    padding: 5px 8px;
+  }
 }
