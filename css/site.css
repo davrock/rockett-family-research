@@ -60,6 +60,16 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* Nav links + hamburger (links live inline on desktop; JS adds the button/panel) */
+/* display:contents lets the links flow as direct flex items of .wrap (= original layout) */
+.navlinks { display: contents; }
+.navtoggle { display: none; }
+.navtoggle span {
+  display: block; width: 22px; height: 2px; background: #f0e3d2;
+  border-radius: 2px; margin: 4px 0;
+  transition: transform .25s ease, opacity .2s ease;
+}
+
 /* Hero */
 header.hero {
   background:
@@ -339,19 +349,21 @@ td .src { font-size: 0.82rem; color: var(--muted); display: block; margin-top: 4
   tr { border-bottom: 1px solid var(--line); padding: 10px 0; }
   td.year { font-weight: 700; }
 
-  /* Sticky nav: one compact swipeable row instead of wrapping to several rows */
-  .topnav .wrap {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    gap: 4px;
-    scrollbar-width: none;
-    -webkit-overflow-scrolling: touch;
+  /* Hamburger menu: home + button on one row, links collapse below */
+  .topnav .wrap { flex-wrap: wrap; gap: 0; row-gap: 0; }
+  .navtoggle {
+    display: inline-flex; flex-direction: column; justify-content: center;
+    margin-left: auto; background: none; border: 0; padding: 8px 4px; cursor: pointer;
   }
-  .topnav .wrap::-webkit-scrollbar { display: none; }
-  .topnav a {
-    white-space: nowrap;
-    flex: 0 0 auto;
-    font-size: 0.82rem;
-    padding: 5px 8px;
+  .navlinks { display: none; }
+  .navlinks.open {
+    display: flex; order: 3; width: 100%;
+    flex-direction: column; align-items: stretch; gap: 0;
+    padding: 4px 0 6px;
   }
+  .navlinks.open a { padding: 10px 8px; font-size: 0.95rem; }
+  /* button morphs to an X when open */
+  .navtoggle.is-open span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  .navtoggle.is-open span:nth-child(2) { opacity: 0; }
+  .navtoggle.is-open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 }
