@@ -1,0 +1,65 @@
+{
+  "kells-priory": {
+    "article": "Kells Priory",
+    "file": "Kellsp5.JPG",
+    "license": "Public domain",
+    "author": "Adrienlesgo at English Wikipedia",
+    "bytes": 744271
+  },
+  "mothel-abbey": {
+    "article": "Mothel Abbey",
+    "file": "Mothel_Priory_South_Wall_2015_09_16.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Andreas F. Borchert",
+    "bytes": 6849163
+  },
+  "holy-trinity-fethard": {
+    "article": "Wikimedia Commons",
+    "file": "Fethard, County Tipperary - Holy Trinity Church - 20210926110534.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "A.-K. D.",
+    "bytes": 2960556
+  },
+  "lesnes-abbey": {
+    "article": "Lesnes Abbey",
+    "file": "Doorway_on_the_Western_Side_of_the_Courtyard_at_Lesnes_Abbey.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Ethan Doyle White",
+    "bytes": 2755943
+  },
+  "st-mary-woolnoth": {
+    "article": "St Mary Woolnoth",
+    "file": "St_Mary,_Woolnoth_(36640083551).jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Amanda Slater from Coventry, West Midlands, UK",
+    "bytes": 4977237
+  },
+  "south-ockendon": {
+    "article": "Wikimedia Commons",
+    "file": "St Nicholas, South Ockendon.jpg",
+    "license": "CC0",
+    "author": "Poliphilo",
+    "bytes": 707298
+  },
+  "elstow-abbey": {
+    "article": "Elstow Abbey",
+    "file": "St_Mary_and_Helena,_Elstow_-_geograph.org.uk_-_530680.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "David Kemp",
+    "bytes": 58616
+  },
+  "barking-abbey": {
+    "article": "Barking Abbey",
+    "file": "Barking_abbey_curfew_tower_london.jpg",
+    "license": "Public domain",
+    "author": "MRSC at English Wikipedia",
+    "bytes": 140803
+  },
+  "audley-end": {
+    "article": "Audley End House",
+    "file": "Audley_End_House_front_elevation.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "John Chapman",
+    "bytes": 1999180
+  }
+}

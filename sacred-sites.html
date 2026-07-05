@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sacred Ground &mdash; Churches &amp; Abbeys of the Medieval Rocketts</title>
+  <meta name="description" content="The churches, abbeys and chantries the medieval Rockett family and their Norman forebears (de Rupella / de la Rokele) founded, endowed, served in, or were buried within &mdash; across Ireland, England and Normandy, from a 1264 soul-grant to a 1508 tomb. Sorted by what still stands today, with photographs of the surviving sites. Every claim is marked as record, tradition or inference.">
+  <link rel="stylesheet" href="css/site.css">
+  <style>
+    /* page-scoped: media cards, visit status, credits — built on the site palette */
+    .twopick { display:grid; grid-template-columns:1fr 1fr; gap:22px; margin:22px 0 6px; }
+    .feature-site {
+      background:var(--panel); border:1px solid var(--line); border-radius:18px; overflow:hidden;
+      box-shadow:0 8px 22px rgba(72,52,35,0.10); display:flex; flex-direction:column;
+    }
+    .feature-site .ph { position:relative; aspect-ratio:16/10; background:var(--bg-deep); }
+    .feature-site .ph img { width:100%; height:100%; object-fit:cover; display:block; }
+    .feature-site .kick {
+      position:absolute; top:12px; left:12px; background:rgba(26,22,20,0.82); color:#f5efe1;
+      font-family:'Helvetica Neue',Arial,sans-serif; font-size:0.72rem; letter-spacing:0.04em;
+      padding:5px 12px; border-radius:999px;
+    }
+    .feature-site .body { padding:20px 22px 22px; }
+    .feature-site h3 { margin:0 0 4px; color:var(--accent-deep); font-size:1.4rem; }
+    .feature-site .body p { margin:0; color:var(--ink-soft); font-size:0.98rem; }
+    .feature-site .where { margin-top:12px !important; color:var(--muted); font-size:0.85rem;
+      font-family:'Helvetica Neue',Arial,sans-serif; }
+
+    .sitecards { display:grid; gap:20px; margin:22px 0; }
+    .sitecard {
+      display:grid; grid-template-columns:minmax(0,340px) 1fr; background:var(--panel);
+      border:1px solid var(--line); border-radius:16px; overflow:hidden;
+      box-shadow:0 6px 18px rgba(72,52,35,0.07);
+    }
+    .sitecard.full { grid-template-columns:1fr; }
+    .sitecard > figure { margin:0; position:relative; min-height:230px; background:var(--bg-deep); }
+    .sitecard > figure img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; }
+    .sitecard > figure figcaption {
+      position:absolute; left:0; right:0; bottom:0; color:#efe6d6;
+      font-family:'Helvetica Neue',Arial,sans-serif; font-size:0.68rem; line-height:1.3;
+      padding:22px 10px 7px; background:linear-gradient(transparent, rgba(26,22,20,0.78));
+    }
+    .sitecard .body { padding:22px 24px; }
+    .sitecard h3 { margin:0; color:var(--accent-deep); font-size:1.3rem; }
+    .sitecard .loc { color:var(--muted); font-size:0.86rem; font-family:'Helvetica Neue',Arial,sans-serif; margin:3px 0 0; }
+    .statusrow { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:12px 0 4px; }
+    .status {
+      display:inline-flex; align-items:center; gap:6px; font-family:'Helvetica Neue',Arial,sans-serif;
+      font-size:0.74rem; font-weight:700; padding:3px 11px; border-radius:999px; border:1px solid;
+    }
+    .status .dot { width:6px; height:6px; border-radius:50%; background:currentColor; }
+    .status.open { color:#166534; border-color:#9cccae; background:#eef7f0; }
+    .status.ruin { color:#7a4a1d; border-color:#dcc39b; background:#faf3e7; }
+    .status.gone { color:#991b1b; border-color:#e6b9b9; background:#fdeeee; }
+    .act { margin:12px 0 0; }
+    .act .who { font-style:italic; }
+    .visit { margin-top:13px; padding-top:12px; border-top:1px solid var(--line); font-size:0.95rem; color:var(--ink-soft); }
+    .visit .k { font-family:'Helvetica Neue',Arial,sans-serif; font-size:0.68rem; letter-spacing:0.08em;
+      text-transform:uppercase; color:var(--accent-bright); font-weight:700; margin-right:7px; }
+    .src { font-size:0.82rem; color:var(--muted); margin:9px 0 0; font-style:italic; }
+    .cav { font-size:0.85rem; color:var(--muted); border-left:2px solid var(--line); padding-left:12px; margin:9px 0 0; }
+
+    .credits { list-style:none; padding-left:0; columns:2; column-gap:36px;
+      font-family:'Helvetica Neue',Arial,sans-serif; font-size:0.82rem; color:var(--muted); }
+    .credits li { margin:5px 0; break-inside:avoid; }
+    .credits b { color:var(--ink-soft); font-weight:600; }
+
+    @media (max-width:720px) {
+      .twopick { grid-template-columns:1fr; }
+      .sitecard { grid-template-columns:1fr; }
+      .sitecard > figure { min-height:220px; }
+      .credits { columns:1; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="wrap">
+    <a class="home" href="index.html">The Rockett Story</a>
+    <a href="index.html#origin">Origin</a>
+    <a href="index.html#ireland">Ireland</a>
+    <a href="index.html#castle">Rocketts Castle</a>
+    <a href="the-loss-of-the-seat.html">The Castle&rsquo;s Loss</a>
+    <a href="sacred-sites.html">Sacred Ground</a>
+    <a href="heraldry.html">Heraldry</a>
+    <a href="tree.html">Family Tree &#128274;</a>
+    <a href="index.html#research">Research your line</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Sacred Ground</h1>
+    <p class="lede">For four centuries the Rocketts &mdash; and the Norman family whose name became &ldquo;Rockett,&rdquo; the <em>de&nbsp;Rupella</em> and <em>de&nbsp;la&nbsp;Rokele</em> &mdash; founded, endowed, and served the Church. They gave land to abbeys, held the right to name parish priests, endowed chantries for their souls, sent sons and daughters into the cloister, and were laid to rest beneath carved stone. This is a gazetteer of those places, sorted by one question: <em>can you still walk into it?</em></p>
+    <div class="pillrow">
+      <span class="pill">Ireland &bull; England &bull; Normandy</span>
+      <span class="pill">1264&ndash;1508</span>
+      <span class="pill">Eight still standing</span>
+    </div>
+    <p class="meta">Drawn from the family research corpus &mdash; charters, calendar rolls, inquisitions and monument inscriptions &mdash; with each entry marked as <strong>record</strong>, <strong>tradition</strong>, or <strong>inference</strong>. Photographs of the surviving sites are credited at the foot of the page.</p>
+  </div>
+</header>
+
+<main>
+
+<section class="tight">
+  <div class="wrap">
+    <div class="toc">
+      <h4>On this page</h4>
+      <ul>
+        <li><a href="#twopick">Two worth the journey</a></li>
+        <li><a href="#ireland">Ireland &mdash; the home ground</a></li>
+        <li><a href="#england">England &amp; the Norman Connection</a></li>
+        <li><a href="#roll">More churches they held</a></li>
+        <li><a href="#credits">Sources &amp; image credits</a></li>
+      </ul>
+    </div>
+
+    <div class="notice">
+      <strong>How to read the tiers.</strong> A <span class="badge high">Documented&nbsp;&#10022;</span> tag means a charter, calendar roll, inquisition or inscription attests the act. <span class="badge tradition">Tradition</span> means an antiquarian or a place-name carries it, awaiting a primary source. The Irish sites sit on your family&rsquo;s own home ground; the English and Norman sites belong to the medieval <em>de Rupella / de la Rokele</em> family, from whom the Irish Rocketts descend.
+    </div>
+  </div>
+</section>
+
+<!-- ================= TWO PICKS ================= -->
+<section id="twopick">
+  <div class="wrap">
+    <h2>Two worth the journey</h2>
+    <p>If you visit nothing else, visit these &mdash; one for the proof, one for the heart.</p>
+    <div class="twopick">
+
+      <article class="feature-site">
+        <div class="ph">
+          <img src="images/kells-priory.jpg" alt="The medieval walls and tower houses of Kells Priory, Co. Kilkenny" loading="lazy" width="1400" height="1050">
+          <span class="kick">For the proof &mdash; Co. Kilkenny</span>
+        </div>
+        <div class="body">
+          <h3>Kells Priory</h3>
+          <p>In 1264 Sir Richard de Rupella gave a church&rsquo;s advowson to this priory &ldquo;for his soul, and for the souls of his ancestors and heirs &mdash; especially for the soul of John, his uncle.&rdquo; It is now one of the largest medieval monuments in Ireland &mdash; the walled &ldquo;Seven Castles of Kells.&rdquo; Free, open every day, and twenty minutes from your Kilkenny heartland.</p>
+          <p class="where">Kells, Co. Kilkenny &middot; OPW &middot; open daily &middot; free entry</p>
+        </div>
+      </article>
+
+      <article class="feature-site">
+        <div class="ph">
+          <img src="images/mothel-abbey.jpg" alt="The surviving south wall of Mothel Abbey, Co. Waterford" loading="lazy" width="1400" height="933">
+          <span class="kick">For the heart &mdash; Co. Waterford</span>
+        </div>
+        <div class="body">
+          <h3>Mothel Abbey</h3>
+          <p>Your direct line&rsquo;s own parish and burial ground for centuries. Roofless now &mdash; a west gable, a south wall, a carved tomb of about 1500 &mdash; but Rockett headstones still stand in the grass, and the surname is tied to this ground from 1569 down to your great-great-grandfather&rsquo;s baptism in 1857.</p>
+          <p class="where">Mothel, Co. Waterford &middot; National Monument &middot; enquire locally for the gate</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= IRELAND ================= -->
+<section id="ireland">
+  <div class="wrap">
+    <h2>Ireland &mdash; the home ground</h2>
+    <p>Waterford, Kilkenny and Dublin: the country where the surname actually sits on your tree, and where the one man who carried the family from England to Ireland &mdash; Sir Richard de Rupella, Justiciar of Ireland &mdash; left the best-documented gifts on this whole list.</p>
+
+    <div class="sitecards">
+
+      <article class="sitecard">
+        <figure>
+          <img src="images/kells-priory.jpg" alt="Kells Priory, Co. Kilkenny" loading="lazy">
+          <figcaption>Kells Priory &middot; photo Adrienlesgo, public domain, via Wikimedia Commons</figcaption>
+        </figure>
+        <div class="body">
+          <h3>Kells Priory</h3>
+          <p class="loc">Kells, Co. Kilkenny &middot; Augustinian, founded 1193</p>
+          <div class="statusrow">
+            <span class="badge high">Documented &#10022;</span>
+            <span class="status open"><span class="dot"></span>Standing &amp; open</span>
+          </div>
+          <p class="act"><span class="who">Sir Richard de Rupella</span> (de la Rochelle), Justiciar of Ireland, granted the priory the <strong>advowson of Kellistown church</strong> &mdash; the right to name its priest &mdash; in <strong>1264</strong>, &ldquo;for his soul and for the souls of his ancestors and heirs, especially for the soul of John son of Geoffrey, his uncle.&rdquo; The single best-attested act of Rockett-line religious patronage anywhere in the record.</p>
+          <p class="visit"><span class="k">Today</span>One of the largest medieval monuments in Ireland &mdash; nave, chancel, Lady chapel, cloister, mill and a ring of seven tower-houses. OPW-guarded, open all year, free. About 15&nbsp;km south of Kilkenny city.</p>
+          <p class="src">Ormond Deeds No. 63 (Curtis, 1932) &mdash; a charter now in The National Archives (E.40).</p>
+        </div>
+      </article>
+
+      <article class="sitecard full">
+        <div class="body">
+          <h3>St Mary&rsquo;s Abbey, Dublin</h3>
+          <p class="loc">Meetinghouse Lane, Dublin &middot; Cistercian, one of medieval Ireland&rsquo;s wealthiest houses</p>
+          <div class="statusrow">
+            <span class="badge high">Documented &#10022;</span>
+            <span class="status ruin"><span class="dot"></span>Chapter house survives</span>
+          </div>
+          <p class="act">The same <span class="who">Sir Richard de Rupella</span> <strong>granted the vill of Dissert to St Mary&rsquo;s Abbey</strong>; a charter of 1270 records his son Sir William as witness (&ldquo;<em>Domino Willelmo de Rupella, filio meo</em>&rdquo;). A second documented benefaction by the founding figure of the Irish line.</p>
+          <p class="visit"><span class="k">Today</span>The abbey was swept away after the Dissolution, but its vaulted <strong>Chapter House</strong> survives below modern street level off Capel Street &mdash; an OPW site, open seasonally. The one place in Dublin where you can stand inside a building the family endowed.</p>
+          <p class="src">Gilbert, <em>Chartularies of St Mary&rsquo;s Abbey, Dublin</em>, vol. I p.254 / vol. II p.26.</p>
+        </div>
+      </article>
+
+      <article class="sitecard">
+        <figure>
+          <img src="images/mothel-abbey.jpg" alt="Mothel Abbey, Co. Waterford" loading="lazy">
+          <figcaption>Mothel Abbey &middot; photo Andreas F. Borchert, CC BY-SA 4.0, via Wikimedia Commons</figcaption>
+        </figure>
+        <div class="body">
+          <h3>Mothel Abbey</h3>
+          <p class="loc">Mothel, Rathgormack, Co. Waterford &middot; Augustinian priory, refounded c.1140</p>
+          <div class="statusrow">
+            <span class="badge tradition">Direct-line ground</span>
+            <span class="status ruin"><span class="dot"></span>Ruin, accessible</span>
+          </div>
+          <p class="act">Not a documented medieval gift &mdash; but this is <strong>your line&rsquo;s own parish church and graveyard</strong>. <span class="who">Piers Rockett</span> is attested at Mothel in 1569; the surname holds this ground continuously down to Edmund Rockett (your ancestor, married here in 1856) and his son James&rsquo;s baptism in 1857 &mdash; some <strong>287 years</strong> of Rocketts at one altar. Rockett headstones survive in the yard.</p>
+          <p class="visit"><span class="k">Today</span>Roofless ruins &mdash; the west gable, part of the south wall, the carved side-panels of a c.1500 tomb, and medieval grave-slabs scattered in the graveyard. A National Monument; ask locally in Mothel village for access.</p>
+          <p class="src">Fiant 1304 (1569); NLI parish registers; Mothel Abbey headstone survey.</p>
+        </div>
+      </article>
+
+      <article class="sitecard">
+        <figure>
+          <img src="images/holy-trinity-fethard.jpg" alt="Holy Trinity Church, Fethard, Co. Tipperary" loading="lazy">
+          <figcaption>Holy Trinity Church, Fethard &middot; photo A.-K. D., CC BY-SA 4.0, via Wikimedia Commons</figcaption>
+        </figure>
+        <div class="body">
+          <h3>Holy Trinity Church</h3>
+          <p class="loc">Fethard, Co. Tipperary &middot; medieval parish church, 13th&ndash;15th c.</p>
+          <div class="statusrow">
+            <span class="badge tradition">Tradition &middot; monument</span>
+            <span class="status open"><span class="dot"></span>Standing &amp; open</span>
+          </div>
+          <p class="act"><span class="who">Anne Roket</span>, wife of Edmund Hackett, <strong>died 1508</strong> &mdash; and tradition holds that the Hacketts helped rebuild this church, with Edmund and Anne dying during the works. A &ldquo;Roket&rdquo; is bound up in the very re-founding of the building; her memorial sits among Fethard&rsquo;s famous medieval tombs.</p>
+          <p class="visit"><span class="k">Today</span>A remarkably intact medieval church inside Fethard&rsquo;s walled town &mdash; four-bay nave, a late-15th-century tower, original chancel and chapel. Open for worship on Sundays; at other times the key is held at the Fethard Horse Country Experience nearby.</p>
+          <p class="src">Monument inscription (Irish Graveyards); Fethard parish tradition.</p>
+          <p class="cav">Anne Roket&rsquo;s kinship to the direct Rockett line is not established &mdash; a striking lead for the medieval bridge, ten years before the Iverk Rockett gentry become richly documented, rather than a proven ancestor.</p>
+        </div>
+      </article>
+
+      <article class="sitecard full">
+        <div class="body">
+          <h3>Killowen church-site</h3>
+          <p class="loc">Clonagam parish, Co. Waterford &middot; by Curraghmore / Portlaw</p>
+          <div class="statusrow">
+            <span class="badge tradition">Tradition &middot; toponymic</span>
+            <span class="status ruin"><span class="dot"></span>Slight remains</span>
+          </div>
+          <p class="act">An old church-site &mdash; Cill Eoghain &mdash; recorded as standing on land locally called <span class="who">&ldquo;Rockett&rsquo;s farm.&rdquo;</span> A name-in-the-landscape rather than a documented gift, but it plants the surname beside a church in the very parish of the family&rsquo;s lost seat at Gortardagh.</p>
+          <p class="visit"><span class="k">Today</span>A minor site of interest chiefly for the place-name; best combined with a Portlaw / Curraghmore visit.</p>
+          <p class="src">Rev. P. Canon Power, <em>The Place-Names of Decies</em> (1907), p.413.</p>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="notice green">
+      <strong>Also standing &mdash; the later family, if you want the fuller pilgrimage.</strong> Beyond the medieval sites, the family&rsquo;s more recent resting-places are all easy to reach: <strong>Holy Cross cemetery, Tramore</strong> (the &ldquo;Erected by Mary Rockett of Drumcannon, 1896&rdquo; stone &mdash; that Mary is Mary Power, and directly your line); the <strong>Franciscan Friary, Carrick-on-Suir</strong>; and <strong>Mooncoin Old Cemetery, Co. Kilkenny</strong>, beside the home parish of your 1720 patriarch, Petrus.
+    </div>
+
+    <div class="sitecards">
+      <article class="sitecard">
+        <figure>
+          <img src="images/mooncoin-rockett-plot.jpg" alt="A Rockett family grave plot at Mooncoin / Milltown, Co. Kilkenny" loading="lazy">
+          <figcaption>A Rockett family plot, Mooncoin district &middot; family photograph</figcaption>
+        </figure>
+        <div class="body">
+          <h3>The family still in the ground</h3>
+          <p class="loc">Mooncoin / south Kilkenny</p>
+          <p class="act">These abbeys and churches are where the name reached for heaven; the everyday truth is quieter and closer. Rockett headstones stand today in the graveyards of Mooncoin, Mothel, Tramore and Carrick &mdash; the same parishes, in an unbroken line, that the medieval charters first named.</p>
+          <p class="visit"><span class="k">Today</span>Open graveyards, freely visited. The most personal stop of all.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="notice">
+      <strong>Worked negatives, so you don&rsquo;t chase them.</strong> The medieval <strong>Kilbarry Hospitaller preceptory</strong> near Waterford was checked against its own register (Corpus Christi MS&nbsp;405) &mdash; no Rockett donor or tenant. At <strong>Christ Church Cathedral, Waterford</strong> the name appears only as two medieval mayors (John Rocket, 1393 &amp; 1412) &mdash; civic office, not church patronage. And the 16th&ndash;17th-century Iverk gentry leave rich land records but, so far, no surviving church or tomb.
+    </div>
+  </div>
+</section>
+
+<!-- ================= ENGLAND ================= -->
+<section id="england">
+  <div class="wrap">
+    <h2>England &amp; the Norman Connection</h2>
+    <p>Two centuries earlier and a sea away, the family whose name became &ldquo;Rockett&rdquo; were persistent church patrons across Essex, Kent, Norfolk, Berkshire, Wiltshire and London &mdash; holding advowsons, founding chantries, and giving land to the great monasteries. Several of their churches still hold Sunday services.</p>
+
+    <div class="sitecards">
+
+      <article class="sitecard">
+        <figure>
+          <img src="images/lesnes-abbey.jpg" alt="The ruins of Lesnes Abbey, Bexley" loading="lazy">
+          <figcaption>Lesnes Abbey &middot; photo Ethan Doyle White, CC BY-SA 4.0, via Wikimedia Commons</figcaption>
+        </figure>
+        <div class="body">
+          <h3>Lesnes Abbey</h3>
+          <p class="loc">Abbey Wood, Bexley (SE London) &middot; Augustinian, founded 1178</p>
+          <div class="statusrow">
+            <span class="badge high">Documented &#10022;</span>
+            <span class="status ruin"><span class="dot"></span>Ruin in a public park</span>
+          </div>
+          <p class="act"><span class="who">Robert de Rokella</span> gave the abbey land in free alms &mdash; confirmed by a charter of King John in <strong>1206</strong> &mdash; the family&rsquo;s clearest documented gift to an English monastery.</p>
+          <p class="visit"><span class="k">Today</span>The most visitable English site: the abbey&rsquo;s low walls and plan survive inside an 88-hectare public park of ancient woodland and gardens, with a caf&eacute; and exhibition. Free, open all year, a short walk from Abbey Wood station on the Elizabeth line.</p>
+          <p class="src">Rotuli Chartarum (King John charter, 4 April 1206); Dugdale, <em>Monasticon</em> vol. VI.</p>
+        </div>
+      </article>
+
+      <article class="sitecard">
+        <figure>
+          <img src="images/st-mary-woolnoth.jpg" alt="St Mary Woolnoth, Lombard Street, City of London" loading="lazy">
+          <figcaption>St Mary Woolnoth &middot; photo Amanda Slater, CC BY-SA 2.0, via Wikimedia Commons</figcaption>
+        </figure>
+        <div class="body">
+          <h3>St Mary Woolnoth</h3>
+          <p class="loc">Lombard Street, City of London</p>
+          <div class="statusrow">
+            <span class="badge high">Documented &#10022;</span>
+            <span class="status open"><span class="dot"></span>Standing &amp; open</span>
+          </div>
+          <p class="act"><span class="who">Gregory de Rokesle</span>, Lord Mayor of London and master of the King&rsquo;s Mint, <strong>founded a chantry by his will</strong> &mdash; property left to fund a chaplain saying daily mass for himself and his wife Avice, with the life-interest to his nephew Walter.</p>
+          <p class="visit"><span class="k">Today</span>Still an active City church &mdash; the present building is Nicholas Hawksmoor&rsquo;s masterpiece of 1716, standing over the medieval site above Bank station. Walk in on a weekday.</p>
+          <p class="src">Calendar of Inquisitions Miscellaneous, vol. 2.</p>
+        </div>
+      </article>
+
+      <article class="sitecard full">
+        <div class="body">
+          <h3>St Andrew&rsquo;s, Willingale Doe</h3>
+          <p class="loc">Willingale, Essex</p>
+          <div class="statusrow">
+            <span class="badge high">Documented &#10022;</span>
+            <span class="status open"><span class="dot"></span>Standing &amp; open</span>
+          </div>
+          <p class="act"><span class="who">Godfrey de Rupella</span> gave the church its original glebe land; the family then held the manor and its advowson for generations. The village&rsquo;s very second name, <strong>&ldquo;Doe,&rdquo;</strong> preserves the family&rsquo;s <em>d&rsquo;Eu</em> byname &mdash; a place still carrying the Norman name on the map.</p>
+          <p class="visit"><span class="k">Today</span>The parish church stands, and famously shares its churchyard with a second church (Willingale Spain) &mdash; one of England&rsquo;s celebrated &ldquo;two churches in one yard.&rdquo; Open for services.</p>
+          <p class="src">J.H. Round, &ldquo;The Church and Glebe of Willingale Doe&rdquo; (1903); Bracton&rsquo;s Note Book, case 841.</p>
+          <p class="cav">The medieval effigy inside is Thomas Torrell, not a Rokele &mdash; don&rsquo;t mistake it for family.</p>
+        </div>
+      </article>
+
+      <article class="sitecard">
+        <figure>
+          <img src="images/south-ockendon.jpg" alt="St Nicholas' Church, South Ockendon, with its round tower" loading="lazy">
+          <figcaption>St Nicholas, South Ockendon &middot; photo Poliphilo, CC0, via Wikimedia Commons</figcaption>
+        </figure>
+        <div class="body">
+          <h3>St Nicholas&rsquo;, South Ockendon</h3>
+          <p class="loc">Thurrock, Essex &middot; the manor of &ldquo;Wokyndon Rokele&rdquo;</p>
+          <div class="statusrow">
+            <span class="badge high">Documented &#10022;</span>
+            <span class="status open"><span class="dot"></span>Standing &amp; open</span>
+          </div>
+          <p class="act"><span class="who">Philip de la Rokele</span> held the church&rsquo;s advowson as a tenant-in-chief; rectors were presented by reason of his lands in 1297 and 1300&ndash;01. The manor literally carried the family name &mdash; <em>Wokyndon Rokele</em>.</p>
+          <p class="visit"><span class="k">Today</span>St Nicholas&rsquo; stands, notable for one of only six round church-towers in Essex. Still in use.</p>
+          <p class="src">Calendar of Patent Rolls, Edw. I; Morant, <em>History of Essex</em> (1768).</p>
+        </div>
+      </article>
+
+      <article class="sitecard">
+        <figure>
+          <img src="images/elstow-abbey.jpg" alt="The Abbey Church of St Mary and St Helena, Elstow" loading="lazy">
+          <figcaption>Elstow Abbey church &middot; photo David Kemp, CC BY-SA 2.0, via Wikimedia Commons</figcaption>
+        </figure>
+        <div class="body">
+          <h3>Elstow &amp; Barking Abbeys</h3>
+          <p class="loc">Bedfordshire &amp; East London &middot; daughters of the family in the cloister</p>
+          <div class="statusrow">
+            <span class="badge high">Documented &#10022;</span>
+            <span class="status ruin"><span class="dot"></span>Church &amp; ruins survive</span>
+          </div>
+          <p class="act"><span class="who">Sarra de la Rokele</span> was a professed Benedictine nun of <strong>Elstow</strong> (attested 1252, senior enough to act as an electoral proxy). <span class="who">Joan de la Rokele</span> was a nun of <strong>Barking</strong> (1295). Not patrons, but family who gave their lives to these houses.</p>
+          <p class="visit"><span class="k">Today</span>Elstow&rsquo;s Abbey Church of St Mary &amp; St Helena is still in use, with monastic ruins alongside. Barking Abbey survives as ruins and the Curfew Tower, in a public heritage park in East London.</p>
+          <p class="src">Calendar of Patent Rolls, Hen. III; Calendar of Inquisitions Post Mortem, vol. 2.</p>
+        </div>
+      </article>
+
+      <article class="sitecard">
+        <figure>
+          <img src="images/audley-end.jpg" alt="Audley End House, on the site of Walden Abbey, Essex" loading="lazy">
+          <figcaption>Audley End House, on the abbey&rsquo;s site &middot; photo John Chapman, CC BY-SA 4.0, via Wikimedia Commons</figcaption>
+        </figure>
+        <div class="body">
+          <h3>Walden Abbey &amp; the Saffron Walden chantry</h3>
+          <p class="loc">Saffron Walden, Essex &middot; Benedictine, founded c.1136</p>
+          <div class="statusrow">
+            <span class="badge high">Documented &#10022;</span>
+            <span class="status gone"><span class="dot"></span>Abbey gone &middot; house on site</span>
+          </div>
+          <p class="act">Three touches across three centuries: <span class="who">Humphrey de Rokele</span> witnessed the abbey&rsquo;s <strong>founding</strong> by Geoffrey de Mandeville (c.1135&ndash;40); <span class="who">Robert de la Rokele</span> in 1302 quitclaimed to the abbot his private chantry of <strong>three masses a week</strong> in his own chapel; and a later Robert Rokele&rsquo;s will was filed at the abbey in 1422.</p>
+          <p class="visit"><span class="k">Today</span>The abbey did not survive the Dissolution &mdash; the great Jacobean mansion <strong>Audley End House</strong> (English Heritage) now stands on its site, so the setting, not the fabric, remains.</p>
+          <p class="src">Adams (2013), citing the Walden cartulary, BL Harley MS 3697.</p>
+        </div>
+      </article>
+
+      <article class="sitecard full">
+        <div class="body">
+          <h3>St Mary the Virgin, Braughing</h3>
+          <p class="loc">Hertfordshire &middot; with a lost London chantry</p>
+          <div class="statusrow">
+            <span class="badge high">Documented &#10022;</span>
+            <span class="status open"><span class="dot"></span>Church open</span>
+            <span class="status gone"><span class="dot"></span>London chantry gone</span>
+          </div>
+          <p class="act"><span class="who">John Rokel</span>, by his will of <strong>1368</strong>, asked to be buried in Braughing churchyard, left <strong>twelve oak trees to the fabric of the church</strong>, and endowed a chantry in the London church of All Hallows the Great for the souls of his parents.</p>
+          <p class="visit"><span class="k">Today</span>Braughing church stands and is worth the visit. The London chantry&rsquo;s church, <strong>All Hallows the Great, was demolished in 1894</strong> &mdash; that half is gone.</p>
+          <p class="src">Husting Wills, vol. 2 (Sharpe).</p>
+        </div>
+      </article>
+
+      <article class="sitecard full">
+        <div class="body">
+          <h3>St Mary&rsquo;s, Market Lavington</h3>
+          <p class="loc">Wiltshire</p>
+          <div class="statusrow">
+            <span class="badge high">Documented &#10022;</span>
+            <span class="status open"><span class="dot"></span>Standing &amp; open</span>
+          </div>
+          <p class="act"><span class="who">William de la Rokele</span> &mdash; father of the Justiciar Richard &mdash; sued for &ldquo;the manor and advowson of Lavington&rdquo; in 1220&ndash;21, claiming his ancestor <strong>Godefrid de la Rachele</strong> had held it in the reign of Henry&nbsp;I. Richard later granted the manor and advowson onward in 1268. One of the deepest reaches of the family&rsquo;s advowson claims.</p>
+          <p class="visit"><span class="k">Today</span>St Mary&rsquo;s parish church stands and serves the village.</p>
+          <p class="src">Curia Regis Roll, 5 Hen. III; Wrottesley, <em>Pedigrees from the Plea Rolls</em>, p.261.</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= ROLL ================= -->
+<section id="roll">
+  <div class="wrap">
+    <h2>More churches they held</h2>
+    <p>Beyond the sites above, the record shows the <em>de la Rokele</em> family holding the advowson of &mdash; or giving land to &mdash; a further run of churches and priories, chiefly in Norfolk, Essex and Berkshire. These are documented in inquisitions and fines but offer less of a &ldquo;pilgrimage&rdquo; payoff; most of the churches still stand as ordinary parish churches.</p>
+    <table>
+      <thead>
+        <tr><th>Church / house</th><th>County</th><th>Rockett holder &amp; act</th><th>Source</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Appleton church &rarr; <strong>Westacre Priory</strong></td><td>Norfolk</td><td><span class="who">Richard de Rupella</span> &mdash; advowson gift</td><td>Blomefield, <em>Norfolk</em> VIII <span class="src">&#10022; primary</span></td></tr>
+        <tr><td><strong>Flitcham Priory</strong> (Augustinian)</td><td>Norfolk</td><td><span class="who">Richard de la Rokele</span> &mdash; land grant in mortmain, 1351</td><td>Calendar of Patent Rolls <span class="src">&#10022; primary</span></td></tr>
+        <tr><td>Chapel of <strong>Earley (Erlegh)</strong></td><td>Berkshire</td><td><span class="who">Humphrey de la Rokele</span> &amp; Maud &mdash; advowson, life-grant 1325</td><td>CIPM, Edw. III vol. VIII <span class="src">&#10022; primary</span></td></tr>
+        <tr><td><strong>Bromhall Priory</strong> chantry</td><td>Berkshire</td><td>1351 perpetual chantry &ldquo;for the soul of <span class="who">William de la Rokele</span>&rdquo;</td><td>Calendar of Patent Rolls</td></tr>
+        <tr><td>Rokelund church</td><td>Norfolk</td><td><span class="who">Richard de la Rokele</span> &mdash; advowson within a four-fee estate, c.1306</td><td>CIPM vol. 4</td></tr>
+        <tr><td>Colney church</td><td>Norfolk</td><td><span class="who">Robert de la Rokele</span> conveyed &frac14; manor <em>with advowson</em>, 1332</td><td>Blomefield, <em>Norfolk</em> V</td></tr>
+        <tr><td>Colkirke church</td><td>Norfolk</td><td><span class="who">Richard de la Rokele Jr</span> held manor &amp; advowson, d.1296</td><td>CIPM vol. 3</td></tr>
+        <tr><td>Little Dunmow Priory &amp; Ashdon</td><td>Essex</td><td><span class="who">Robert de la Rokele</span> &mdash; priory advowson valued 40 marks</td><td>Inquisition post mortem</td></tr>
+        <tr><td>Great Stambridge (parson)</td><td>Essex</td><td><span class="who">Thomas de la Rokele</span> &mdash; family member as rector, 1258&ndash;62</td><td>Fine Rolls, Hen. III</td></tr>
+      </tbody>
+    </table>
+
+    <div class="notice">
+      <strong>A documented tie, and a blank.</strong> <span class="who">Philip de la Rokele</span> was patron of <strong>Hatfield Peverel Priory&rsquo;s</strong> dependent chapel of Wadley, at Fairstead, Essex &mdash; settling with the prior over it in 1226 &mdash; so a Rokele link to the priory is firmly on record. A direct endowment of the priory itself, however, remains unattested: its own register burned in a fire in 1231. A handful of the family also served as clergy &mdash; a vicar at Newport Pagnell, a rector at Chelsfield, a monk-theologian at Norwich and Oxford, and Walter de Rokele, a Templar pensioned to the Hospitallers in 1338.
+    </div>
+
+    <p class="pullquote">The one figure who carries the family from England to Ireland &mdash; Sir Richard de Rupella, the Justiciar &mdash; is also the author of the two best-documented gifts on this whole list: Kells, and St Mary&rsquo;s Abbey, Dublin.</p>
+  </div>
+</section>
+
+<!-- ================= CREDITS ================= -->
+<section id="credits">
+  <div class="wrap">
+    <h2>Sources &amp; image credits</h2>
+    <p><strong>On the evidence.</strong> A <span class="badge high">Documented&nbsp;&#10022;</span> tag means a charter, calendar roll, inquisition or inscription attests the act. <span class="badge tradition">Tradition</span> means an antiquarian source or a place-name carries it, awaiting a primary document. Where a claim was checked and failed, it is listed as a worked negative rather than quietly dropped. Full source citations appear under each entry.</p>
+    <h4>Photographs</h4>
+    <p style="font-size:0.9rem;color:var(--muted);">All site photographs are reproduced under their stated licences; each links back to Wikimedia Commons, and CC BY-SA images are used with attribution. The Mooncoin plot is a family photograph.</p>
+    <ul class="credits">
+      <li><b>Kells Priory</b> &mdash; Adrienlesgo, public domain</li>
+      <li><b>Mothel Abbey</b> &mdash; Andreas F. Borchert, CC BY-SA 4.0</li>
+      <li><b>Holy Trinity, Fethard</b> &mdash; A.-K. D., CC BY-SA 4.0</li>
+      <li><b>Lesnes Abbey</b> &mdash; Ethan Doyle White, CC BY-SA 4.0</li>
+      <li><b>St Mary Woolnoth</b> &mdash; Amanda Slater, CC BY-SA 2.0</li>
+      <li><b>St Nicholas, South Ockendon</b> &mdash; Poliphilo, CC0</li>
+      <li><b>Elstow Abbey</b> &mdash; David Kemp, CC BY-SA 2.0</li>
+      <li><b>Audley End House</b> &mdash; John Chapman, CC BY-SA 4.0</li>
+      <li><b>Mooncoin Rockett plot</b> &mdash; family photograph</li>
+      <li>All Wikimedia images via <b>commons.wikimedia.org</b></li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<div class="footer">
+  <div class="wrap">
+    <p>This gazetteer distinguishes throughout between what the primary records state, what is inference, and what is later tradition. Where the record runs out, it says so.</p>
+    <p>Part of <a href="index.html">The Rockett Story</a> &mdash; a public-facing research summary.</p>
+  </div>
+</div>
+
+<script src="js/site.js" defer></script>
+</body>
+</html>
